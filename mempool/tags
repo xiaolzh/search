@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alloc	MemoryPool.cpp	/^void* MemoryPool::Alloc()$/;"	f	class:MemoryPool
+Free	MemoryPool.cpp	/^void MemoryPool::Free(void* pFree)$/;"	f	class:MemoryPool
+INITSIZE	Define.h	5;"	d
+MEMPOOL_ALIGNMENT	Define.h	6;"	d
+MemoryBlock	MemoryBlock.cpp	/^MemoryBlock::MemoryBlock(USHORT nInitSize, ULONG nUnitSize)$/;"	f	class:MemoryBlock
+MemoryBlock	MemoryBlock.h	/^struct MemoryBlock$/;"	s
+MemoryPool	MemoryPool.cpp	/^MemoryPool::MemoryPool(ULONG _nUnitSize, USHORT _nInitSize)$/;"	f	class:MemoryPool
+MemoryPool	MemoryPool.h	/^class MemoryPool$/;"	c
+ULONG	Define.h	8;"	d
+UNITSIZE	Define.h	4;"	d
+USHORT	Define.h	7;"	d
+__DEFINE_H__	Define.h	2;"	d
+__MEMOEYBLOCK_H__	MemoryBlock.h	2;"	d
+__MEMORYPOOL_H__	MemoryPool.h	2;"	d
+aData	MemoryBlock.h	/^	char	aData[1];$/;"	m	struct:MemoryBlock
+main	example.cpp	/^int main(int argc, char* argv[])$/;"	f
+nDummyAlign1	MemoryBlock.h	/^	USHORT	nDummyAlign1;$/;"	m	struct:MemoryBlock
+nFirst	MemoryBlock.h	/^	USHORT	nFirst;$/;"	m	struct:MemoryBlock
+nFree	MemoryBlock.h	/^	USHORT	nFree;$/;"	m	struct:MemoryBlock
+nInitSize	MemoryPool.h	/^	USHORT			nInitSize;$/;"	m	class:MemoryPool
+nSize	MemoryBlock.h	/^	ULONG	nSize;$/;"	m	struct:MemoryBlock
+nUnitSize	MemoryPool.h	/^	ULONG			nUnitSize;$/;"	m	class:MemoryPool
+operator delete	MemoryBlock.h	/^	static void operator delete(void* p, size_t)$/;"	f	struct:MemoryBlock
+operator new	MemoryBlock.h	/^	static void* operator new(size_t, USHORT nInitSize, ULONG nUnitSize)$/;"	f	struct:MemoryBlock
+pBlock	MemoryPool.h	/^	MemoryBlock*	pBlock;$/;"	m	class:MemoryPool
+pNext	MemoryBlock.h	/^	MemoryBlock*	pNext;$/;"	m	struct:MemoryBlock
+~MemoryBlock	MemoryBlock.h	/^	~MemoryBlock()$/;"	f	struct:MemoryBlock
+~MemoryPool	MemoryPool.cpp	/^MemoryPool::~MemoryPool()$/;"	f	class:MemoryPool
