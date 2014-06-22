@@ -1,0 +1,41 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is README file for Configurator (C++ library for configuration file parsing).
+
+Last update: November 30, 2010
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+CONFIGURATOR
+version 0.9.2
+
+ABSTRACT
+--------
+
+Configurator provides parsing of configuration file, with nesting sections,
+allow to define option's default value, option's necessity and option's value semantic check.
+For more info see documentation and examples.
+
+
+EXTERNAL DEPENDENCIES
+---------------------
+
+Only "one" - Boost C++ libraries. See documentation.
+
+ 
+PORTABILITY
+-----------
+
+It is portable so far as portable Boost C++ libraries and C++ standard library. :-)
+
+
+WEBSITE
+-------
+
+See http://opensource.dshevchenko.biz/configurator for all info.
+
+
+MORE INFORMATION
+----------------
+
+Sourceforge page: 	http://sourceforge.net/projects/cfo-parser/
+Author's site: 		http://opensource.dshevchenko.biz
+ 

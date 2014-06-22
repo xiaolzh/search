@@ -1,0 +1,1286 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABSTRACT_LEN	include/common_def.h	64;"	d
+ADD_FILE	include/common_def.h	50;"	d
+ALLOC_GRANULARITY	include/WFMem.h	190;"	d
+AR_TAG_NAME	include/common_def.h	36;"	d
+AcceptConn	include/WFSocket.h	/^    sock_descriptor AcceptConn(struct sockaddr *pClientAddr = NULL)$/;"	f	class:nsWFSocket::CTcpServer
+AcceptThread	include/WFSocket.h	/^    static void AcceptThread(void *pParam)$/;"	f	class:nsWFSocket::CTcpServer
+AddInCurrPeriod	include/WFMem.h	/^    char *AddInCurrPeriod(SPeriodHead *pPeriod, size_t DataSize)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+AddKey_FL	include/UT_HashSearch.h	/^	var_4 AddKey_FL(T_Key tKey, var_vd* vpData = NULL, var_vd** vppRetBuf = NULL)$/;"	f	class:UT_HashSearch
+AddKey_VL	include/UT_HashSearch.h	/^	var_4 AddKey_VL(T_Key tKey, var_vd* vpData, var_4 lDataLen, var_vd** vppRetBuf = NULL, var_4* lpRetDataLen = NULL)$/;"	f	class:UT_HashSearch
+Alloc	include/WFMem.h	/^    char *Alloc(size_t DataSize, time_t tExpiredTime)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+Alloc	include/WFMem.h	/^    void *Alloc()$/;"	f	class:nsWFMem::CBlockMemory
+Alloc	include/WFMem.h	/^    void *Alloc(size_t AllocSize)$/;"	f	class:nsWFMem::CReuseMemory
+AllocMem	include/UC_Allocator_Recycle.h	/^	var_1* AllocMem()$/;"	f	class:UC_Allocator_Recycle
+Allocate	include/UT_Allocator.h	/^	T* Allocate(var_8 lAllocLen = 1)$/;"	f	class:UT_Allocator
+AtoUI64	include/WFPub.h	/^static uint64_t AtoUI64(const char *pStr)$/;"	f	namespace:nsWFPub
+BM_GET_BIT	include/UH_Define.h	1587;"	d
+BM_LEN_1BYTE	include/UH_Define.h	1589;"	d
+BM_LEN_2BYTE	include/UH_Define.h	1590;"	d
+BM_LEN_4BYTE	include/UH_Define.h	1591;"	d
+BM_LEN_8BYTE	include/UH_Define.h	1592;"	d
+BM_RULE_BIT	include/UH_Define.h	/^static var_u1 BM_RULE_BIT[] = {0x80, 0x40, 0x20, 0x10, 0x8, 0x4, 0x2, 0x1};$/;"	v
+BM_RULE_ZERO_BIT	include/UH_Define.h	/^static var_u1 BM_RULE_ZERO_BIT[] = {0x7F, 0xBF, 0xDF, 0xEF, 0xF7, 0xFB, 0xFD, 0xFE};$/;"	v
+BM_SET_BIT	include/UH_Define.h	1585;"	d
+BM_SET_BIT_ZERO	include/UH_Define.h	1586;"	d
+BlockingRecv	include/WFSocket.h	/^    int BlockingRecv(sock_descriptor sock, char *pRecvBuf, size_t TotalRecvLen)$/;"	f	class:nsWFSocket::CSock
+BlockingSend	include/WFSocket.h	/^    int BlockingSend(sock_descriptor sock, const char *pSendBuf, size_t TotalSendLen)$/;"	f	class:nsWFSocket::CSock
+CAutolock	include/WFLock.h	/^    CAutolock(CLock *pLock)$/;"	f	class:nsWFLock::CAutolock
+CAutolock	include/WFLock.h	/^class CAutolock$/;"	c	namespace:nsWFLock
+CBlockListQueue	include/WFQueue.h	/^    CBlockListQueue()$/;"	f	class:nsWFQueue::CBlockListQueue
+CBlockListQueue	include/WFQueue.h	/^class CBlockListQueue$/;"	c	namespace:nsWFQueue
+CBlockListSet	include/WFQueue.h	/^	CBlockListSet()$/;"	f	class:nsWFQueue::CBlockListSet
+CBlockListSet	include/WFQueue.h	/^class CBlockListSet$/;"	c	namespace:nsWFQueue
+CBlockMemory	include/WFMem.h	/^    CBlockMemory()$/;"	f	class:nsWFMem::CBlockMemory
+CBlockMemory	include/WFMem.h	/^class CBlockMemory$/;"	c	namespace:nsWFMem
+CCheckTimeoutList	include/WFQueue.h	/^    CCheckTimeoutList()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+CCheckTimeoutList	include/WFQueue.h	/^class CCheckTimeoutList$/;"	c	namespace:nsWFQueue
+CDATA_BEG_FLG	include/common_def.h	22;"	d
+CDATA_BEG_LEN	include/common_def.h	23;"	d
+CDATA_END_FLG	include/common_def.h	24;"	d
+CDATA_END_LEN	include/common_def.h	25;"	d
+CDailyLog	include/WFLog.h	/^    CDailyLog()$/;"	f	class:nsWFLog::CDailyLog
+CDailyLog	include/WFLog.h	/^class CDailyLog$/;"	c	namespace:nsWFLog
+CF_CONFIGURATOR_HPP	configuration/configurator/configurator.hpp	17;"	d
+CF_DETAIL_COMMENTS_REMOVER_HPP	configuration/configurator/detail/comments_remover.hpp	20;"	d
+CF_DETAIL_INCORRECT_OPTIONS_CHECKER_HPP	configuration/configurator/detail/incorrect_options_checker.hpp	20;"	d
+CF_DETAIL_MISC_HPP	configuration/configurator/detail/misc.hpp	20;"	d
+CF_DETAIL_NECESSARY_OPTIONS_CHECKER_HPP	configuration/configurator/detail/necessary_options_checker.hpp	20;"	d
+CF_DETAIL_OPTIONS_REPETITION_HANDLER_HPP	configuration/configurator/detail/options_repetition_handler.hpp	20;"	d
+CF_DETAIL_OPTION_HPP	configuration/configurator/detail/option.hpp	20;"	d
+CF_DETAIL_PURE_OPTIONS_OBTAINER_HPP	configuration/configurator/detail/pure_options_obtainer.hpp	20;"	d
+CF_DETAIL_PURE_STRINGS_OBTAINER_HPP	configuration/configurator/detail/pure_strings_obtainer.hpp	20;"	d
+CF_DETAIL_SEMANTIC_CHECKER_HPP	configuration/configurator/detail/semantic_checker.hpp	20;"	d
+CF_DETAIL_SINGLETON_HPP	configuration/configurator/detail/singleton.hpp	20;"	d
+CF_DETAIL_TYPES_HPP	configuration/configurator/detail/types.hpp	20;"	d
+CF_DETAIL_VALIDATORS_HPP	configuration/configurator/detail/validators.hpp	20;"	d
+CFreeByTimeMemory	include/WFMem.h	/^    CFreeByTimeMemory()$/;"	f	class:nsWFMem::CFreeByTimeMemory
+CFreeByTimeMemory	include/WFMem.h	/^class CFreeByTimeMemory$/;"	c	namespace:nsWFMem
+CHECK_FAILED	include/common_def.h	82;"	d
+CHeapHashPack	include/heaphashpack.h	/^	CHeapHashPack()$/;"	f	class:CHeapHashPack
+CHeapHashPack	include/heaphashpack.h	/^class CHeapHashPack$/;"	c
+CLEAR_DOC_START	include/common_def.h	7;"	d
+CLEAR_START	include/common_def.h	54;"	d
+CL_TAG_NAME	include/common_def.h	35;"	d
+CLock	include/WFLock.h	/^        CLock()$/;"	f	class:nsWFLock::CLock
+CLock	include/WFLock.h	/^    class CLock$/;"	c	namespace:nsWFLock
+CMonitor	include/WFMonitor.h	/^    CMonitor()$/;"	f	class:nsWFMonitor::CMonitor
+CMonitor	include/WFMonitor.h	/^class CMonitor$/;"	c	namespace:nsWFMonitor
+CP_MMF	include/UH_Define.h	/^} CP_MMF;$/;"	t	typeref:struct:_cp_memory_map_file_
+CP_MUTEXLOCK	include/UH_Define.h	/^} CP_MUTEXLOCK;$/;"	t	typeref:struct:CP_MutexLock
+CP_MUTEXLOCK_RW	include/UH_Define.h	/^} CP_MUTEXLOCK_RW;$/;"	t	typeref:struct:CP_MutexLock_RW
+CP_MUTEXLOCK_RW_FUN	include/UH_Define.h	/^} CP_MUTEXLOCK_RW_FUN;$/;"	t	typeref:struct:CP_MutexLock_RW_FUN
+CP_MUTEXLOCK_RW_LCK	include/UH_Define.h	/^} CP_MUTEXLOCK_RW_LCK;$/;"	t	typeref:struct:CP_MutexLock_RW_LCK
+CP_MutexLock	include/UH_Define.h	/^	CP_MutexLock()$/;"	f	struct:CP_MutexLock
+CP_MutexLock	include/UH_Define.h	/^typedef struct CP_MutexLock$/;"	s
+CP_MutexLock_RW	include/UH_Define.h	/^	CP_MutexLock_RW()$/;"	f	struct:CP_MutexLock_RW
+CP_MutexLock_RW	include/UH_Define.h	/^	CP_MutexLock_RW(var_bl is_writer_wins = true)$/;"	f	struct:CP_MutexLock_RW
+CP_MutexLock_RW	include/UH_Define.h	/^typedef struct CP_MutexLock_RW$/;"	s
+CP_MutexLock_RW_FUN	include/UH_Define.h	/^	CP_MutexLock_RW_FUN()$/;"	f	struct:CP_MutexLock_RW_FUN
+CP_MutexLock_RW_FUN	include/UH_Define.h	/^typedef struct CP_MutexLock_RW_FUN$/;"	s
+CP_MutexLock_RW_LCK	include/UH_Define.h	/^	CP_MutexLock_RW_LCK()$/;"	f	struct:CP_MutexLock_RW_LCK
+CP_MutexLock_RW_LCK	include/UH_Define.h	/^typedef struct CP_MutexLock_RW_LCK$/;"	s
+CP_P64	include/UH_Define.h	619;"	d
+CP_P64	include/UH_Define.h	622;"	d
+CP_PU64	include/UH_Define.h	620;"	d
+CP_PU64	include/UH_Define.h	623;"	d
+CP_SOCKET_T	include/UH_Define.h	1080;"	d
+CP_SOCKET_T	include/UH_Define.h	1082;"	d
+CP_STAT_TIME	include/UH_Define.h	/^} CP_STAT_TIME;$/;"	t	typeref:struct:_cp_stat_time_
+CP_THREAD_T	include/UH_Define.h	1488;"	d
+CP_THREAD_T	include/UH_Define.h	1490;"	d
+CPriorityBlockQueue	include/WFQueue.h	/^    CPriorityBlockQueue()$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+CPriorityBlockQueue	include/WFQueue.h	/^class CPriorityBlockQueue : public CBlockListSet$/;"	c	namespace:nsWFQueue
+CReuseMemory	include/WFMem.h	/^    CReuseMemory()$/;"	f	class:nsWFMem::CReuseMemory
+CReuseMemory	include/WFMem.h	/^class CReuseMemory$/;"	c	namespace:nsWFMem
+CSock	include/WFSocket.h	/^    CSock()$/;"	f	class:nsWFSocket::CSock
+CSock	include/WFSocket.h	/^class CSock$/;"	c	namespace:nsWFSocket
+CTcpClient	include/WFSocket.h	/^class CTcpClient : public CSock$/;"	c	namespace:nsWFSocket
+CTcpServer	include/WFSocket.h	/^    CTcpServer()$/;"	f	class:nsWFSocket::CTcpServer
+CTcpServer	include/WFSocket.h	/^class CTcpServer : public CSock$/;"	c	namespace:nsWFSocket
+CThread	include/WFThread.h	/^    CThread(size_t MaxThreadCount = 1024)$/;"	f	class:nsWFThread::CThread
+CThread	include/WFThread.h	/^class CThread$/;"	c	namespace:nsWFThread
+CTraversalDir	include/WFPub.h	/^    CTraversalDir()$/;"	f	class:nsWFPub::CTraversalDir
+CTraversalDir	include/WFPub.h	/^class CTraversalDir$/;"	c	namespace:nsWFPub
+CTrySaveLog	include/WFLog.h	/^    CTrySaveLog()$/;"	f	class:nsWFLog::CTrySaveLog
+CTrySaveLog	include/WFLog.h	/^class CTrySaveLog$/;"	c	namespace:nsWFLog
+CXmlParser	include/WFPub.h	/^class CXmlParser$/;"	c	namespace:nsWFPub
+Check	include/WFQueue.h	/^    int Check(time_t tNow, DataType *pData)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+CheckFree	include/WFMem.h	/^    void CheckFree()$/;"	f	class:nsWFMem::CFreeByTimeMemory
+CleanOldLog	include/WFLog.h	/^    void CleanOldLog()$/;"	f	class:nsWFLog::CDailyLog
+Cleanup	include/WFMonitor.h	/^    int Cleanup()$/;"	f	class:nsWFMonitor::CMonitor
+Cleanup	include/WFSocket.h	/^    int Cleanup()$/;"	f	class:nsWFSocket::CTcpServer
+Clear	include/WFMem.h	/^    void Clear()$/;"	f	class:nsWFMem::CReuseMemory
+Clear	include/heaphashpack.h	/^	void Clear()$/;"	f	class:CHeapHashPack
+ClearFolder	include/utility.h	/^bool static ClearFolder(var_1 *folder)$/;"	f
+ClearHashSearch	include/UT_HashSearch.h	/^	var_4 ClearHashSearch()$/;"	f	class:UT_HashSearch
+ClearQueue	include/UT_Queue.h	/^	void ClearQueue()$/;"	f	class:UT_Queue
+ClearStr	include/WFPub.h	/^static int ClearStr(char *pStr)$/;"	f	namespace:nsWFPub
+ClearStr	include/WFPub.h	/^static int ClearStr(char *pStr, int iStrLen)$/;"	f	namespace:nsWFPub
+ClearStrHead	include/WFPub.h	/^static int ClearStrHead(char *pStr)$/;"	f	namespace:nsWFPub
+ClearStrTail	include/WFPub.h	/^static int ClearStrTail(char *pStr)$/;"	f	namespace:nsWFPub
+Close	include/WFSocket.h	/^    void Close(sock_descriptor sock)$/;"	f	class:nsWFSocket::CSock
+CloseSocket	include/WFSocket.h	28;"	d
+CloseSocket	include/WFSocket.h	41;"	d
+ConnServer	include/WFSocket.h	/^    sock_descriptor ConnServer(const char *pIP, unsigned short usPort, unsigned int uimsTimeout = 0)$/;"	f	class:nsWFSocket::CTcpClient
+ConnServer	include/WFSocket.h	/^    sock_descriptor ConnServer(unsigned long ulINETAddr, unsigned short usPort, unsigned int uimsTimeout = 0)$/;"	f	class:nsWFSocket::CTcpClient
+CopyFile	include/WFPub.h	/^static int CopyFile(const char *pSrcFile, const char *pDestFile)$/;"	f	namespace:nsWFPub
+CurrAllocSize	include/WFMem.h	/^        size_t CurrAllocSize;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SDataBlockMeta
+DEFAULTMAXBLOCKLEN	include/UT_Allocator.h	9;"	d
+DEFAULTMAXBLOCKNUM	include/UT_Allocator.h	8;"	d
+DEFAULT_END_TIME	include/common_def.h	18;"	d
+DEFAULT_START	include/common_def.h	53;"	d
+DEFAULT_START_TIME	include/common_def.h	17;"	d
+DEF_MAX_BUF_SEG_NUM	include/UC_Allocator_Recycle.h	8;"	d
+DEF_PRE_BUF_BLK_NUM	include/UC_Allocator_Recycle.h	9;"	d
+DEL_FILE	include/common_def.h	51;"	d
+DOCID_TAG_NAME	include/common_def.h	32;"	d
+DOC_INFO	src/Ring.h	/^}DOC_INFO;$/;"	t	typeref:struct:doc_info
+Data	include/WFQueue.h	/^        DataType Data;$/;"	m	struct:nsWFQueue::CCheckTimeoutList::SNode
+DeQueue	include/WFQueue.h	/^    int DeQueue()$/;"	f	class:nsWFQueue::CBlockListQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(int iPriority, void *pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(void *pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+DeQueue	include/WFQueue.h	/^    int DeQueue(void *pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+Decode	include/UC_MD5.h	/^	void Decode (UINT4 *output, unsigned char *input, unsigned int len)$/;"	f	class:UC_MD5
+DeleteKey_FL	include/UT_HashSearch.h	/^	var_4 DeleteKey_FL(T_Key tKey)$/;"	f	class:UT_HashSearch
+Delete_Max	include/heaphashpack.h	/^	int Delete_Max(int suf)$/;"	f	class:CHeapHashPack
+Delete_Min	include/heaphashpack.h	/^	int Delete_Min(int suf)$/;"	f	class:CHeapHashPack
+EMGR_ERROR_INIT	include/common_def.h	6;"	d
+EVENT_THRESHOLD	include/common_def.h	55;"	d
+EVTID_TAG_NAME	include/common_def.h	33;"	d
+EnQueue	include/WFQueue.h	/^    int EnQueue(int iPriority, void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+EnQueue	include/WFQueue.h	/^    int EnQueue(time_t tExpired, const DataType *pData)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+EnQueue	include/WFQueue.h	/^    int EnQueue(void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+Encode	include/UC_MD5.h	/^	void Encode (unsigned char *output, UINT4 *input, unsigned int len)$/;"	f	class:UC_MD5
+ErrorLevel	include/WFMonitor.h	/^    enum ErrorLevel$/;"	g	class:nsWFMonitor::CMonitor
+ErrorType	include/WFMonitor.h	/^    enum ErrorType$/;"	g	class:nsWFMonitor::CMonitor
+ExpiredPeriod	include/WFMem.h	/^        size_t ExpiredPeriod;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SPeriodHead
+F	include/UC_MD5.h	45;"	d
+FAILE_CALL	include/common_def.h	125;"	d
+FAILE_CALL_ID	include/common_def.h	129;"	d
+FAILE_CALL_LEN_PARAM	include/common_def.h	127;"	d
+FAILE_CALL_PARAM	include/common_def.h	126;"	d
+FAILE_CALL_RET	include/common_def.h	128;"	d
+FAILE_DUPSTR	include/common_def.h	132;"	d
+FAILE_NEW	include/common_def.h	131;"	d
+FF	include/UC_MD5.h	54;"	d
+FINGER_TAG_NAME	include/common_def.h	34;"	d
+FileIsExisting	include/WFPub.h	/^static bool FileIsExisting(const char *pFile)$/;"	f	namespace:nsWFPub
+FlushData	include/WFLog.h	/^    void FlushData()$/;"	f	class:nsWFLog::CDailyLog
+Free	include/WFMem.h	/^    void Free(void *pBlock)$/;"	f	class:nsWFMem::CBlockMemory
+FreeAll	include/WFMem.h	/^    void FreeAll()$/;"	f	class:nsWFMem::CBlockMemory
+FreeAllocator	include/UC_Allocator_Recycle.h	/^	void FreeAllocator()$/;"	f	class:UC_Allocator_Recycle
+FreeAllocator	include/UT_Allocator.h	/^	var_8 FreeAllocator()$/;"	f	class:UT_Allocator
+FreeMem	include/UC_Allocator_Recycle.h	/^	void FreeMem(var_1* buffer)$/;"	f	class:UC_Allocator_Recycle
+FreePeriodList	include/WFMem.h	/^    int FreePeriodList(SPeriodHead *pPeriod)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+G	include/UC_MD5.h	46;"	d
+GBStrStr	include/WFPub.h	/^static char *GBStrStr(const char *pSrc, const char *pPtn)$/;"	f	namespace:nsWFPub
+GBStriStr	include/WFPub.h	/^static char *GBStriStr(const char *pSrc, const char *pPtn)$/;"	f	namespace:nsWFPub
+GETACCEPTEXSOCKADDRS	include/WFSocket.h	/^    typedef void (PASCAL FAR *GETACCEPTEXSOCKADDRS)(PVOID, DWORD, DWORD, DWORD, LPSOCKADDR*, LPINT, LPSOCKADDR*, LPINT);$/;"	t
+GG	include/UC_MD5.h	57;"	d
+GetAllocCount	include/WFMem.h	/^    size_t GetAllocCount()$/;"	f	class:nsWFMem::CBlockMemory
+GetAllocateLen	include/UT_Allocator.h	/^	var_8 GetAllocateLen()$/;"	f	class:UT_Allocator
+GetBlockSize	include/WFMem.h	/^    size_t GetBlockSize()$/;"	f	class:nsWFMem::CBlockMemory
+GetCurrQueueLen	include/WFQueue.h	/^    int GetCurrQueueLen(int iQueueSeq)$/;"	f	class:nsWFQueue::CBlockListSet
+GetCurrQueueLen	include/WFQueue.h	/^    size_t GetCurrQueueLen()$/;"	f	class:nsWFQueue::CBlockListQueue
+GetCurrQueueLen	include/WFQueue.h	/^    size_t GetCurrQueueLen()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+GetCurrQueueLen	include/WFQueue.h	/^    size_t GetCurrQueueLen(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+GetDateStr	include/WFPub.h	/^static void GetDateStr(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetDateStrForFilename	include/WFPub.h	/^static void GetDateStrForFilename(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetDateTimeStr	include/WFPub.h	/^static void GetDateTimeStr(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetDateTimeStrForFilename	include/WFPub.h	/^static void GetDateTimeStrForFilename(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetFileLastModTime	include/WFPub.h	/^static int GetFileLastModTime(const char *pFilename, time_t &tLastModTime)$/;"	f	namespace:nsWFPub
+GetFileSize	include/WFPub.h	/^static int GetFileSize(const char *pFilename, int &iFileSize)$/;"	f	namespace:nsWFPub
+GetFileSize	include/WFPub.h	/^static int GetFileSize(const char *pFilename, uint64_t &u64FileSize)$/;"	f	namespace:nsWFPub
+GetFullName	include/WFPub.h	/^    int GetFullName(char *pFullName)$/;"	f	class:nsWFPub::CTraversalDir
+GetGetAcceptExSockaddrs	include/WFSocket.h	/^    long GetGetAcceptExSockaddrs(SOCKET in_sListen, GETACCEPTEXSOCKADDRS& out_fpFunPoint)$/;"	f	class:nsWFSocket::CSock
+GetHeadData	include/WFQueue.h	/^    int GetHeadData(int iPriority, void *&pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+GetHeadData	include/WFQueue.h	/^    int GetHeadData(void *&pData, size_t &DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+GetIPStr	include/WFSocket.h	/^    const char *GetIPStr()$/;"	f	class:nsWFSocket::CSock
+GetIPStr	include/WFSocket.h	/^    const char *GetIPStr(sock_descriptor sock)$/;"	f	class:nsWFSocket::CSock
+GetIPStr	include/WFSocket.h	/^    const char* GetIPStr(SOCKET in_sListen, char *buffer, GETACCEPTEXSOCKADDRS fpFunPoint = NULL)$/;"	f	class:nsWFSocket::CSock
+GetKeyNum	include/UT_HashSearch.h	/^	var_4 GetKeyNum()$/;"	f	class:UT_HashSearch
+GetMaxQueueLen	include/WFQueue.h	/^    int GetMaxQueueLen()$/;"	f	class:nsWFQueue::CBlockListSet
+GetMaxQueueLen	include/WFQueue.h	/^    size_t GetMaxQueueLen()$/;"	f	class:nsWFQueue::CBlockListQueue
+GetMaxQueueLen	include/WFQueue.h	/^    size_t GetMaxQueueLen()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+GetMaxQueueLen	include/WFQueue.h	/^    size_t GetMaxQueueLen(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+GetName	include/WFPub.h	/^    const char *GetName()$/;"	f	class:nsWFPub::CTraversalDir
+GetQueueBySeq	include/WFQueue.h	/^	CBlockListQueue *GetQueueBySeq(int iQueueSeq)$/;"	f	class:nsWFQueue::CBlockListSet
+GetQueueCount	include/WFQueue.h	/^	int GetQueueCount()$/;"	f	class:nsWFQueue::CBlockListSet
+GetQueueSize	include/UT_Queue.h	/^	var_4 GetQueueSize()$/;"	f	class:UT_Queue
+GetTagPairPos	include/WFPub.h	/^    int GetTagPairPos(const char *pParseBeg, const char *pParseEnd, const char *pTagName, char *&pTagBeg, char *&pTagEnd)$/;"	f	class:nsWFPub::CXmlParser
+GetThreadCount	include/WFThread.h	/^    size_t GetThreadCount()$/;"	f	class:nsWFThread::CThread
+GetThreadID	include/WFThread.h	/^static int GetThreadID()$/;"	f	namespace:nsWFThread
+GetThreadState	include/WFMonitor.h	/^    int32_t GetThreadState(char * const lpszOutBuf, const int32_t i32OutBufSize, uint32_t &u32OutBufLen)$/;"	f	class:nsWFMonitor::CMonitor
+GetTickCnt	include/WFPub.h	/^static uint32_t GetTickCnt()$/;"	f	namespace:nsWFPub
+GetTimeStr	include/WFPub.h	/^static void GetTimeStr(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetTimeStrForFilename	include/WFPub.h	/^static void GetTimeStrForFilename(char *pStr, time_t tTime = 0)$/;"	f	namespace:nsWFPub
+GetUseBufferLen	include/UT_Allocator.h	/^	var_8 GetUseBufferLen()$/;"	f	class:UT_Allocator
+GetUseMemNum	include/UC_Allocator_Recycle.h	/^	var_8 GetUseMemNum()$/;"	f	class:UC_Allocator_Recycle
+GetVersion	include/UC_Allocator_Recycle.h	/^	const var_1* GetVersion()$/;"	f	class:UC_Allocator_Recycle
+GetVersion	include/UT_Allocator.h	/^	var_1* GetVersion()$/;"	f	class:UT_Allocator
+GetVersion	include/UT_HashSearch.h	/^	var_1* GetVersion()$/;"	f	class:UT_HashSearch
+GetVersion	include/UT_Queue.h	/^	var_1* GetVersion()$/;"	f	class:UT_Queue
+H	include/UC_MD5.h	47;"	d
+HASH_TABLE_NODE	include/heaphashpack.h	/^	}HASH_TABLE_NODE;$/;"	t	class:CHeapHashPack	typeref:struct:CHeapHashPack::hash_table_node
+HH	include/UC_MD5.h	60;"	d
+HasFirst	include/WFPub.h	/^    bool HasFirst()$/;"	f	class:nsWFPub::CTraversalDir
+HasFirstFile	include/WFPub.h	/^    bool HasFirstFile()$/;"	f	class:nsWFPub::CTraversalDir
+HasNext	include/WFPub.h	/^    bool HasNext()$/;"	f	class:nsWFPub::CTraversalDir
+HasNextFile	include/WFPub.h	/^    bool HasNextFile()$/;"	f	class:nsWFPub::CTraversalDir
+I	include/UC_MD5.h	48;"	d
+I64d	include/WFPub.h	35;"	d
+I64d	include/WFPub.h	53;"	d
+I64u	include/WFPub.h	36;"	d
+I64u	include/WFPub.h	54;"	d
+I64x	include/WFPub.h	37;"	d
+I64x	include/WFPub.h	55;"	d
+II	include/UC_MD5.h	63;"	d
+INTERVAL_TIME	include/common_def.h	10;"	d
+INVALID_ID	include/WFPub.h	/^const int INVALID_ID = 0;$/;"	v
+INVALID_MONITOR_ID	include/WFMonitor.h	/^            INVALID_MONITOR_ID  = -100,$/;"	e	enum:nsWFMonitor::CMonitor::__anon2
+INVALID_PARAMETER	include/common_def.h	124;"	d
+INVALID_SOCKET	include/common_def.h	75;"	d
+INVALID_THREAD_ID	include/WFMonitor.h	/^        INVALID_THREAD_ID   = 0,$/;"	e	enum:nsWFMonitor::CMonitor::__anon2
+IniConfig	include/UC_ReadConfigFile.h	/^    IniConfig(const char* iniFile)$/;"	f	class:IniConfig
+IniConfig	include/UC_ReadConfigFile.h	/^class IniConfig$/;"	c
+Init	include/WFLog.h	/^    int Init(const char *pLogDir, const char *pPrefix, bool bNeedTimeStamp = true, size_t FlushFreq = 1, size_t SavePeriod = 30)$/;"	f	class:nsWFLog::CDailyLog
+Init	include/WFLog.h	/^    int Init(const char *pLogDir, const char *pPrefix, bool bNeedTimeStamp = true, size_t MaxLogSize = 100<<20)$/;"	f	class:nsWFLog::CTrySaveLog
+Init	include/WFLog.h	/^    int Init(const char *pPrefix, bool bNeedTimeStamp = true, size_t MaxLogSize = 100<<20)$/;"	f	class:nsWFLog::CTrySaveLog
+Init	include/WFMem.h	/^    int Init(size_t MaxBatchCount, size_t BlockCountInEachBatch, size_t BlockSize)$/;"	f	class:nsWFMem::CBlockMemory
+Init	include/WFMem.h	/^    int Init(size_t MaxBlockCount, size_t BlockSize)$/;"	f	class:nsWFMem::CBlockMemory
+Init	include/WFMem.h	/^    int Init(size_t MaxMemCount, size_t MemSize)$/;"	f	class:nsWFMem::CReuseMemory
+Init	include/WFMem.h	/^    int Init(size_t PeriodLen, size_t MaxPeriodCount, size_t FreeDelaySec, size_t MaxDataBlockCount, size_t DataBlockSize)$/;"	f	class:nsWFMem::CFreeByTimeMemory
+Init	include/WFPub.h	/^    int Init(const char *pDir)$/;"	f	class:nsWFPub::CTraversalDir
+Init	include/WFQueue.h	/^	int Init(int iQueueCount, int iDefaultQueueDataSize, $/;"	f	class:nsWFQueue::CBlockListSet
+Init	include/WFQueue.h	/^    int Init(int iMinPriority, int iMaxPriority,$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+Init	include/WFQueue.h	/^    int Init(size_t MaxDataSize, size_t MaxQueueLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+Init	include/WFQueue.h	/^    int Init(size_t MaxQueueLen)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+Init	include/heaphashpack.h	/^	int Init(const int iHeapSize)$/;"	f	class:CHeapHashPack
+InitHashSearch	include/UT_HashSearch.h	/^	var_4 InitHashSearch(var_4 lHashTableSize, var_4 lDataLen = 0)$/;"	f	class:UT_HashSearch
+InitQueue	include/UT_Queue.h	/^	var_4 InitQueue(var_4 lMaxQueueSize)$/;"	f	class:UT_Queue
+Insert_Max	include/heaphashpack.h	/^	int Insert_Max(const TYPE1& tKey, const TYPE2& tData1, const TYPE3 &tData2)$/;"	f	class:CHeapHashPack
+Insert_Min	include/heaphashpack.h	/^	int Insert_Min(const TYPE1& tKey, const TYPE2& tData1, const TYPE3 &tData2)$/;"	f	class:CHeapHashPack
+IsDir	include/WFPub.h	/^    bool IsDir()$/;"	f	class:nsWFPub::CTraversalDir
+IsEmpty	include/WFQueue.h	/^    bool IsEmpty()$/;"	f	class:nsWFQueue::CBlockListQueue
+IsFull	include/WFQueue.h	/^    bool IsFull()$/;"	f	class:nsWFQueue::CBlockListQueue
+IsFull	include/WFQueue.h	/^    bool IsFull(int iPriority)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+IsLittleEndian	include/WFPub.h	/^static bool IsLittleEndian()$/;"	f	namespace:nsWFPub
+IsQueueEmpty	include/UT_Queue.h	/^	var_4 IsQueueEmpty()$/;"	f	class:UT_Queue
+IsQueueFull	include/UT_Queue.h	/^	var_4 IsQueueFull()$/;"	f	class:UT_Queue
+K	include/common_def.h	59;"	d
+KW_MIN_NUM	include/common_def.h	48;"	d
+KeyValue	include/UC_ReadConfigFile.h	/^    typedef std::map<std::string, std::string> KeyValue;$/;"	t	class:IniConfig
+LEVEL_A	include/WFMonitor.h	/^        LEVEL_A = 1,    \/\/严重$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_B	include/WFMonitor.h	/^        LEVEL_B,        \/\/重要$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_C	include/WFMonitor.h	/^        LEVEL_C,        \/\/一般$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_D	include/WFMonitor.h	/^        LEVEL_D,        \/\/调试$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LEVEL_E	include/WFMonitor.h	/^        LEVEL_E,        \/\/可忽略$/;"	e	enum:nsWFMonitor::CMonitor::ErrorLevel
+LINK_TAG_NAME	include/common_def.h	39;"	d
+LOG_ERROR	include/common_def.h	109;"	d
+LOG_ERROR	include/common_def.h	94;"	d
+LOG_FAILE_CALL	include/common_def.h	113;"	d
+LOG_FAILE_CALL	include/common_def.h	98;"	d
+LOG_FAILE_CALL_ID	include/common_def.h	102;"	d
+LOG_FAILE_CALL_ID	include/common_def.h	117;"	d
+LOG_FAILE_CALL_LEN_PARAM	include/common_def.h	100;"	d
+LOG_FAILE_CALL_LEN_PARAM	include/common_def.h	115;"	d
+LOG_FAILE_CALL_PARAM	include/common_def.h	114;"	d
+LOG_FAILE_CALL_PARAM	include/common_def.h	99;"	d
+LOG_FAILE_CALL_RET	include/common_def.h	101;"	d
+LOG_FAILE_CALL_RET	include/common_def.h	116;"	d
+LOG_FAILE_DUPSTR	include/common_def.h	105;"	d
+LOG_FAILE_DUPSTR	include/common_def.h	120;"	d
+LOG_FAILE_NEW	include/common_def.h	104;"	d
+LOG_FAILE_NEW	include/common_def.h	119;"	d
+LOG_INVALID_PARAMETER	include/common_def.h	112;"	d
+LOG_INVALID_PARAMETER	include/common_def.h	97;"	d
+LOG_NULL_POINTER	include/common_def.h	111;"	d
+LOG_NULL_POINTER	include/common_def.h	96;"	d
+LOG_PARAM	include/common_def.h	103;"	d
+LOG_PARAM	include/common_def.h	118;"	d
+LOG_TRY	include/common_def.h	108;"	d
+LOG_TRY	include/common_def.h	93;"	d
+LOG_WARNING	include/common_def.h	110;"	d
+LOG_WARNING	include/common_def.h	95;"	d
+LPrintf	include/WFLog.h	/^    void LPrintf(bool bConsoleShow, const char *pFormat, ...)$/;"	f	class:nsWFLog::CDailyLog
+LastError	include/WFPub.h	/^static int LastError()$/;"	f	namespace:nsWFPub
+LoadHashSearch	include/UT_HashSearch.h	/^	var_4 LoadHashSearch(var_1* filename)$/;"	f	class:UT_HashSearch
+Lock	include/WFLock.h	/^        void Lock() $/;"	f	class:nsWFLock::CLock
+LogIn	include/WFMonitor.h	/^    int LogIn(int iThreadID, const char *pThreadDesc = "Thread")$/;"	f	class:nsWFMonitor::CMonitor
+LogOut	include/WFMonitor.h	/^    int LogOut(int iMonitorID, int iThreadID)$/;"	f	class:nsWFMonitor::CMonitor
+MAX_BUFFER_SIZE	include/common_def.h	9;"	d
+MAX_DELAY_LOCKER_NUM	include/UT_HashTable_Pro.h	12;"	d
+MAX_MAX_THRESHOLD	include/common_def.h	58;"	d
+MAX_QUEUE_COUNT	include/WFQueue.h	/^		MAX_QUEUE_COUNT = 1024,$/;"	e	enum:nsWFQueue::CBlockListSet::__anon1
+MAX_RESULT_COUNT	include/common_def.h	12;"	d
+MAX_RN_AR_NUM	include/common_def.h	15;"	d
+MAX_RN_CL_NUM	include/common_def.h	14;"	d
+MAX_RN_DID_NUM	include/common_def.h	13;"	d
+MAX_RN_KEY_NUM	include/common_def.h	16;"	d
+MAX_SINGLE_KW_LEN	include/common_def.h	63;"	d
+MAX_SPLIT_KW_CT	include/common_def.h	62;"	d
+MAX_TABLE_LOCKER_NUM	include/UT_HashTable_Pro.h	9;"	d
+MAX_THREAD_DESCRIPTION_LEN	include/WFMonitor.h	13;"	d
+MAX_WORD_NUM	include/common_def.h	11;"	d
+MD5Bits128	include/UC_MD5.h	/^	void MD5Bits128(unsigned char output[], unsigned char * input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5Bits32	include/UC_MD5.h	/^	UINT4 MD5Bits32(unsigned char * input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5Bits64	include/UC_MD5.h	/^	UINT8 MD5Bits64(unsigned char * input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5Final	include/UC_MD5.h	/^	void MD5Final (unsigned char digest[16], MD5_CTX *context)$/;"	f	class:UC_MD5
+MD5Init	include/UC_MD5.h	/^	void MD5Init (MD5_CTX *context)$/;"	f	class:UC_MD5
+MD5Transform	include/UC_MD5.h	/^	void MD5Transform (UINT4 state[4], unsigned char block[64])$/;"	f	class:UC_MD5
+MD5Update	include/UC_MD5.h	/^	void MD5Update (MD5_CTX *context, unsigned char *input, unsigned int inputLen)$/;"	f	class:UC_MD5
+MD5_CTX	include/UC_MD5.h	/^	} MD5_CTX;	$/;"	t	class:UC_MD5	typeref:struct:UC_MD5::__anon3
+MD5_memcpy	include/UC_MD5.h	/^	void MD5_memcpy(POINTER output, POINTER input, unsigned int len)$/;"	f	class:UC_MD5
+MD5_memset	include/UC_MD5.h	/^	void MD5_memset (POINTER output, int value, unsigned int len)$/;"	f	class:UC_MD5
+MIN_DELAY_LOCKER_NUM	include/UT_HashTable_Pro.h	13;"	d
+MIN_MIN_THRESHOLD	include/common_def.h	57;"	d
+MIN_TABLE_LOCKER_NUM	include/UT_HashTable_Pro.h	10;"	d
+MIN_VALID_EVT_CT	include/common_def.h	61;"	d
+MONITOR_LOG_DIR	include/WFMonitor.h	14;"	d
+MakeDir	include/WFPub.h	/^static int MakeDir(const char *pDir)$/;"	f	namespace:nsWFPub
+MonitorThread	include/WFMonitor.h	/^    static void MonitorThread(void *pParam)$/;"	f	class:nsWFMonitor::CMonitor
+MustOpenFile	include/WFPub.h	/^static int MustOpenFile(FILE *&fp, const char *pFile, const char *pMode)$/;"	f	namespace:nsWFPub
+MustRemoveFile	include/WFPub.h	/^static int MustRemoveFile(const char *pFile)$/;"	f	namespace:nsWFPub
+MustRenameFile	include/WFPub.h	/^static int MustRenameFile(const char *pSrcFile, const char *pDestFile)$/;"	f	namespace:nsWFPub
+NULL_POINTER	include/common_def.h	123;"	d
+New	include/WFMem.h	/^static T *New(size_t ObjCount = 1)$/;"	f	namespace:nsWFMem
+Output	include/heaphashpack.h	/^	void Output() const$/;"	f	class:CHeapHashPack
+PADDING	include/UC_MD5.h	/^	unsigned char PADDING[64];$/;"	m	class:UC_MD5
+PARAM	include/common_def.h	130;"	d
+PATH_2_NAME	include/common_def.h	85;"	d
+PATH_2_NAME	include/common_def.h	87;"	d
+PIC_LINK_TAG_NAME	include/common_def.h	42;"	d
+PIC_SIZE_TAG_NAME	include/common_def.h	41;"	d
+PIC_TAG_NAME	include/common_def.h	40;"	d
+POINTER	include/UC_MD5.h	/^	typedef unsigned char* POINTER;$/;"	t	class:UC_MD5
+PRINT_DEBUG_INFO	include/common_def.h	107;"	d
+PRINT_DEBUG_INFO	include/common_def.h	92;"	d
+PTTF	include/WFPub.h	40;"	d
+PTTF	include/WFPub.h	42;"	d
+PTTF	include/WFPub.h	57;"	d
+PopData	include/UT_Queue.h	/^	T_Key PopData()$/;"	f	class:UT_Queue
+PopData_NB	include/UT_Queue.h	/^	var_4 PopData_NB(T_Key& tKey)$/;"	f	class:UT_Queue
+Pop_Max	include/heaphashpack.h	/^	int Pop_Max()$/;"	f	class:CHeapHashPack
+Pop_Min	include/heaphashpack.h	/^	int Pop_Min()$/;"	f	class:CHeapHashPack
+PreTravelKey	include/UT_HashSearch.h	/^	var_4 PreTravelKey()$/;"	f	class:UT_HashSearch
+PushData	include/UT_Queue.h	/^	void PushData(T_Key tKey)$/;"	f	class:UT_Queue
+PushData_NB	include/UT_Queue.h	/^	var_4 PushData_NB(T_Key tKey)$/;"	f	class:UT_Queue
+Push_Max	include/heaphashpack.h	/^	int Push_Max(const TYPE1& tKey, const TYPE2& tData1, const TYPE3 &tData2)$/;"	f	class:CHeapHashPack
+Push_Min	include/heaphashpack.h	/^	int Push_Min(const TYPE1& tKey, const TYPE2& tData1, const TYPE3 &tData2)$/;"	f	class:CHeapHashPack
+QuickSort	include/heaphashpack.h	/^	const int QuickSort(int iBegin, int iEnd)$/;"	f	class:CHeapHashPack
+QuickSort_Desc	include/heaphashpack.h	/^	const int QuickSort_Desc(int iBegin, int iEnd)$/;"	f	class:CHeapHashPack
+QuitWithEnter	include/WFPub.h	/^static int QuitWithEnter()$/;"	f	namespace:nsWFPub
+REPEAT_TAG_NAME	include/common_def.h	29;"	d
+REQ_PORT	src/Ring.h	3;"	d
+RET_ERROR_INVALID_PARAM	include/common_def.h	80;"	d
+RET_FALSE	include/common_def.h	78;"	d
+RET_NO_ENOUGH_MEMORY	include/common_def.h	81;"	d
+RET_SECCEED	include/common_def.h	79;"	d
+ROTATE_LEFT	include/UC_MD5.h	51;"	d
+RemoveFromQueueByData	include/WFQueue.h	/^    int RemoveFromQueueByData(DataType *pData)$/;"	f	class:nsWFQueue::CCheckTimeoutList
+RemoveFromQueueByData	include/WFQueue.h	/^    int RemoveFromQueueByData(int iPriority, void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+RemoveFromQueueByData	include/WFQueue.h	/^    int RemoveFromQueueByData(void *pData, size_t DataLen)$/;"	f	class:nsWFQueue::CBlockListQueue
+Reset	include/WFMem.h	/^    void Reset()$/;"	f	class:nsWFMem::CBlockMemory
+Reset	include/WFMem.h	/^    void Reset()$/;"	f	class:nsWFMem::CReuseMemory
+ResetAllocator	include/UC_Allocator_Recycle.h	/^	void ResetAllocator()$/;"	f	class:UC_Allocator_Recycle
+ResetAllocator	include/UT_Allocator.h	/^	var_8 ResetAllocator()$/;"	f	class:UT_Allocator
+ResetQueue	include/UT_Queue.h	/^	void ResetQueue()$/;"	f	class:UT_Queue
+ReverseStr	include/WFPub.h	/^static void ReverseStr(const void *pSrc, size_t SrcLen, void *pDest)$/;"	f	namespace:nsWFPub
+ReverseStr	include/WFPub.h	/^static void ReverseStr(void *pSrc, size_t SrcLen)$/;"	f	namespace:nsWFPub
+Ring	src/Ring.h	/^class Ring$/;"	c
+S11	include/UC_MD5.h	27;"	d
+S12	include/UC_MD5.h	28;"	d
+S13	include/UC_MD5.h	29;"	d
+S14	include/UC_MD5.h	30;"	d
+S21	include/UC_MD5.h	31;"	d
+S22	include/UC_MD5.h	32;"	d
+S23	include/UC_MD5.h	33;"	d
+S24	include/UC_MD5.h	34;"	d
+S31	include/UC_MD5.h	35;"	d
+S32	include/UC_MD5.h	36;"	d
+S33	include/UC_MD5.h	37;"	d
+S34	include/UC_MD5.h	38;"	d
+S41	include/UC_MD5.h	39;"	d
+S42	include/UC_MD5.h	40;"	d
+S43	include/UC_MD5.h	41;"	d
+S44	include/UC_MD5.h	42;"	d
+SDataBlockMeta	include/WFMem.h	/^    struct SDataBlockMeta $/;"	s	class:nsWFMem::CFreeByTimeMemory
+SITE_TAG_NAME	include/common_def.h	38;"	d
+SL_TAG_NAME	include/common_def.h	37;"	d
+SNode	include/WFQueue.h	/^    struct SNode $/;"	s	class:nsWFQueue::CCheckTimeoutList
+SOCKET_VER	include/common_def.h	20;"	d
+SOCKET_VER_LEN	include/common_def.h	21;"	d
+SPeriodHead	include/WFMem.h	/^    struct SPeriodHead $/;"	s	class:nsWFMem::CFreeByTimeMemory
+SThreadInfo	include/WFMonitor.h	/^    struct SThreadInfo $/;"	s	class:nsWFMonitor::CMonitor
+SaveHashSearch	include/UT_HashSearch.h	/^	var_4 SaveHashSearch(var_1* filename)$/;"	f	class:UT_HashSearch
+SearchKey_FL	include/UT_HashSearch.h	/^	var_4 SearchKey_FL(T_Key tKey, var_vd** vppRetBuf = NULL)$/;"	f	class:UT_HashSearch
+SearchKey_VL	include/UT_HashSearch.h	/^	var_4 SearchKey_VL(T_Key tKey, var_vd** vppRetBuf, var_4* lpRetDataLen)$/;"	f	class:UT_HashSearch
+SegmentToSrc	include/utility.h	/^static int SegmentToSrc(char *pDest, const char *pSrc, int iSrcLen)$/;"	f
+SetTimeout	include/WFSocket.h	/^    int SetTimeout(sock_descriptor sock, int iRecvTimeout, int iSendTimeout)$/;"	f	class:nsWFSocket::CSock
+SleepMicroSecond	include/WFPub.h	/^static void SleepMicroSecond(size_t microsecond)$/;"	f	namespace:nsWFPub
+SleepMilliSecond	include/WFPub.h	/^static void SleepMilliSecond(size_t millisecond)$/;"	f	namespace:nsWFPub
+SleepSecond	include/WFPub.h	/^static void SleepSecond(size_t second)$/;"	f	namespace:nsWFPub
+StartThread	include/WFThread.h	/^    int StartThread(void (*ThreadFunc)(void*), void *pParam = NULL, size_t ThreadCount = 1)$/;"	f	class:nsWFThread::CThread
+Startup	include/WFMonitor.h	/^    int Startup(int iMaxThreadCount, int iMonitorPort, int iMaxOutTime, const char *pLogDir = NULL)$/;"	f	class:nsWFMonitor::CMonitor
+Startup	include/WFSocket.h	/^    int Startup(uint16_t u16Port, size_t MaxAcceptQueueLen = 64, char *pIP = NULL)$/;"	f	class:nsWFSocket::CTcpServer
+StriCmp	include/WFPub.h	/^static int StriCmp(const char *pStr1, const char *pStr2)$/;"	f	namespace:nsWFPub
+StriStr	include/WFPub.h	/^static char *StriStr(const char *pSrc, const char *pPtn)$/;"	f	namespace:nsWFPub
+StrniCmp	include/WFPub.h	/^static int StrniCmp(const char *pStr1, const char *pStr2, size_t StrLen)$/;"	f	namespace:nsWFPub
+TEXT_TAG_NAME	include/common_def.h	46;"	d
+TIME_TAG_BEG	include/common_def.h	27;"	d
+TIME_TAG_BEG_LEN	include/common_def.h	30;"	d
+TIME_TAG_NAME	include/common_def.h	28;"	d
+TITLE_TAG_NAME	include/common_def.h	45;"	d
+TYPE_MONITOR	include/WFMonitor.h	/^        TYPE_MONITOR,   \/\/monitor错误$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_NETWORK	include/WFMonitor.h	/^        TYPE_NETWORK,   \/\/网络故障$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_OK	include/WFMonitor.h	/^        TYPE_OK = 0,    \/\/运行正常$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_OTHER	include/WFMonitor.h	/^        TYPE_OTHER,     \/\/其它错误$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TYPE_SERVICE	include/WFMonitor.h	/^        TYPE_SERVICE,   \/\/服务错误$/;"	e	enum:nsWFMonitor::CMonitor::ErrorType
+TravelKey	include/UT_HashSearch.h	/^	var_4 TravelKey(T_Key& trKey, var_vd*& vprRetBuf, var_4& lDataLen)$/;"	f	class:UT_HashSearch
+TryFlushingData	include/WFLog.h	/^    void TryFlushingData()$/;"	f	class:nsWFLog::CDailyLog
+TryLPrintf	include/WFLog.h	/^    void TryLPrintf(const char *pDir, bool bConsoleShow, const char *pFormat, ...)$/;"	f	class:nsWFLog::CTrySaveLog
+TryLPrintfKernel	include/WFLog.h	/^    void TryLPrintfKernel(const char *pDir, bool bConsoleShow, const char *pFormat, va_list ap)$/;"	f	class:nsWFLog::CTrySaveLog
+TryOpenFile	include/WFPub.h	/^static int TryOpenFile(FILE *&fp, const char *pFile, const char *pMode, int iMaxTryCount = -1)$/;"	f	namespace:nsWFPub
+TryRemoveFile	include/WFPub.h	/^static int TryRemoveFile(const char *pFile, int iMaxTryCount = -1)$/;"	f	namespace:nsWFPub
+TryRenameFile	include/WFPub.h	/^static int TryRenameFile(const char *pSrcFile, const char *pDestFile, int iMaxTryCount = -1)$/;"	f	namespace:nsWFPub
+TrySaveLPrintf	include/WFLog.h	/^    void TrySaveLPrintf(const char *pFormat, ...)$/;"	f	class:nsWFLog::CTrySaveLog
+TryShowLPrintf	include/WFLog.h	/^    void TryShowLPrintf(const char *pFormat, ...)$/;"	f	class:nsWFLog::CTrySaveLog
+UC_Allocator_Recycle	include/UC_Allocator_Recycle.h	/^	UC_Allocator_Recycle()$/;"	f	class:UC_Allocator_Recycle
+UC_Allocator_Recycle	include/UC_Allocator_Recycle.h	/^class UC_Allocator_Recycle$/;"	c
+UC_MD5	include/UC_MD5.h	/^	UC_MD5()$/;"	f	class:UC_MD5
+UC_MD5	include/UC_MD5.h	/^class UC_MD5$/;"	c
+UINT2	include/UC_MD5.h	/^	typedef unsigned short UINT2;$/;"	t	class:UC_MD5
+UINT4	include/UC_MD5.h	/^	typedef unsigned int UINT4;$/;"	t	class:UC_MD5
+UINT8	include/UC_MD5.h	/^		typedef unsigned __int64 UINT8;$/;"	t	class:UC_MD5
+UINT8	include/UC_MD5.h	/^		typedef unsigned long long UINT8;$/;"	t	class:UC_MD5
+USE_MFS	include/WFPub.h	15;"	d
+UT_Allocator	include/UT_Allocator.h	/^	UT_Allocator(var_8 lMaxBlockNum = DEFAULTMAXBLOCKNUM, var_8 lMaxBlockLen = DEFAULTMAXBLOCKLEN)$/;"	f	class:UT_Allocator
+UT_Allocator	include/UT_Allocator.h	/^class UT_Allocator$/;"	c
+UT_HASH_TABLE_PRO_TRAVEL_INFO	include/UT_HashTable_Pro.h	/^} UT_HASH_TABLE_PRO_TRAVEL_INFO;$/;"	t	typeref:struct:_UT_Hash_Table_Pro_Travel_Info_
+UT_HashSearch	include/UT_HashSearch.h	/^	UT_HashSearch()$/;"	f	class:UT_HashSearch
+UT_HashSearch	include/UT_HashSearch.h	/^class UT_HashSearch$/;"	c
+UT_HashTable_Pro	include/UT_HashTable_Pro.h	/^	UT_HashTable_Pro()$/;"	f	class:UT_HashTable_Pro
+UT_HashTable_Pro	include/UT_HashTable_Pro.h	/^class UT_HashTable_Pro$/;"	c
+UT_Queue	include/UT_Queue.h	/^	UT_Queue()$/;"	f	class:UT_Queue
+UT_Queue	include/UT_Queue.h	/^class UT_Queue$/;"	c
+UnLock	include/WFLock.h	/^        void UnLock() $/;"	f	class:nsWFLock::CLock
+UpdateStatus	include/WFMonitor.h	188;"	d
+WF_INT_H	include/WFInt.h	3;"	d
+WF_LOCK_H	include/WFLock.h	3;"	d
+WF_LOG_H	include/WFLog.h	3;"	d
+WF_MEM_H	include/WFMem.h	3;"	d
+WF_MONITOR_H	include/WFMonitor.h	2;"	d
+WF_PUB_H	include/WFPub.h	3;"	d
+WF_QUEUE_H	include/WFQueue.h	3;"	d
+WF_SOCKET_H	include/WFSocket.h	3;"	d
+WF_THREAD_H	include/WFThread.h	3;"	d
+WIN32_LEAN_AND_MEAN	include/WFLock.h	17;"	d
+WIN32_LEAN_AND_MEAN	include/WFPub.h	29;"	d
+WIN32_LEAN_AND_MEAN	include/WFThread.h	16;"	d
+WINDOWS_PLATFORM	include/WFInt.h	10;"	d
+WINDOWS_PLATFORM	include/WFInt.h	6;"	d
+WINDOWS_PLATFORM	include/WFLock.h	13;"	d
+WINDOWS_PLATFORM	include/WFLock.h	9;"	d
+WINDOWS_PLATFORM	include/WFPub.h	18;"	d
+WINDOWS_PLATFORM	include/WFPub.h	23;"	d
+WINDOWS_PLATFORM	include/WFSocket.h	13;"	d
+WINDOWS_PLATFORM	include/WFSocket.h	17;"	d
+WINDOWS_PLATFORM	include/WFThread.h	12;"	d
+WINDOWS_PLATFORM	include/WFThread.h	8;"	d
+WaitForQuit	include/WFThread.h	/^    int WaitForQuit()$/;"	f	class:nsWFThread::CThread
+_DEBUG_P	include/common_def.h	90;"	d
+_HEAP_HASH_PACK_H_	include/heaphashpack.h	2;"	d
+_LINUX_ENV_	include/UH_Define.h	14;"	d
+_MACOS_ENV_	include/UH_Define.h	19;"	d
+_SYSTEM_X64_	include/UH_Define.h	15;"	d
+_SYSTEM_X86_	include/UH_Define.h	10;"	d
+_UC_ALLOCATOR_RECYCLE_H_	include/UC_Allocator_Recycle.h	4;"	d
+_UC_MD5_H_	include/UC_MD5.h	4;"	d
+_UH_DEFINE_H_	include/UH_Define.h	4;"	d
+_UT_ALLOCATOR_H_	include/UT_Allocator.h	4;"	d
+_UT_HASH_SEARCH_H_	include/UT_HashSearch.h	4;"	d
+_UT_Hash_Table_Pro_Travel_Info_	include/UT_HashTable_Pro.h	/^typedef struct _UT_Hash_Table_Pro_Travel_Info_$/;"	s
+_UT_QUEUE_EVENT_H_	include/UT_Queue.h	4;"	d
+_UpdateStatus	include/WFMonitor.h	/^    int _UpdateStatus(int iMonitorID, int iThreadID, int iLineNum)$/;"	f	class:nsWFMonitor::CMonitor
+_WIN32_ENV_	include/UH_Define.h	9;"	d
+__DATABASE_H__	src/database.h	2;"	d
+__RING_H__	src/Ring.h	2;"	d
+__UT_HASH_TABLE_PRO_H__	include/UT_HashTable_Pro.h	4;"	d
+___COMMON_DEF_H_	include/common_def.h	2;"	d
+___UTILITY_H_	include/utility.h	2;"	d
+_cp_memory_map_file_	include/UH_Define.h	/^	_cp_memory_map_file_()$/;"	f	struct:_cp_memory_map_file_
+_cp_memory_map_file_	include/UH_Define.h	/^typedef struct _cp_memory_map_file_$/;"	s
+_cp_stat_time_	include/UH_Define.h	/^typedef struct _cp_stat_time_$/;"	s
+_quick_sort	include/utility.h	/^var_vd _quick_sort(T* _term_infos, var_4 _low, var_4 _high, bool _cmp(const T&, const T&))$/;"	f
+_swap	include/utility.h	/^inline var_vd _swap(T& lhs, T& rhs)$/;"	f
+access	include/WFPub.h	34;"	d
+add	configuration/configurator/configurator.hpp	/^    option& add( const std::string& option_name ) {$/;"	f	class:cf::configurator
+add	include/UT_HashTable_Pro.h	/^	var_4 add(T_Key key, var_vd* value = NULL, var_vd** const reference = NULL, var_4 is_overwrite = 0, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+add_here	configuration/configurator/configurator.hpp	/^    option& add_here( const std::string& option_name ) {$/;"	f	class:cf::configurator
+add_option	configuration/configurator/configurator.hpp	/^    option& add_option( const std::string& option_name ) {$/;"	f	class:cf::configurator
+add_option_here	configuration/configurator/configurator.hpp	/^    option& add_option_here( const std::string& option_name ) {$/;"	f	class:cf::configurator
+align_multi_line_comments_in	configuration/configurator/detail/comments_remover.hpp	/^    void align_multi_line_comments_in( str_storage& obtained_strings ) const {$/;"	f	class:cf::detail::comments_remover
+allow_multi_values	configuration/configurator/detail/option.hpp	/^    option& allow_multi_values() {$/;"	f	class:cf::detail::option
+already_has_default_value	configuration/configurator/detail/option.hpp	/^    bool already_has_default_value() const {$/;"	f	class:cf::detail::option
+artist	src/Ring.h	/^	string artist;$/;"	m	struct:doc_info
+at_least_one_option_has_default_value	configuration/configurator/configurator.hpp	/^    bool at_least_one_option_has_default_value() const {$/;"	f	class:cf::configurator
+b_sign	configuration/configurator/detail/validators.hpp	/^    const std::string b_sign;$/;"	m	class:cf::detail::size_validator
+buffer	include/UC_MD5.h	/^		unsigned char buffer[64];  \/* input buffer *\/$/;"	m	struct:UC_MD5::__anon3
+bytes_in_gb	configuration/configurator/detail/validators.hpp	/^    const unsigned long int bytes_in_gb;$/;"	m	class:cf::detail::size_validator
+bytes_in_kb	configuration/configurator/detail/validators.hpp	/^    const unsigned long int bytes_in_kb;$/;"	m	class:cf::detail::size_validator
+bytes_in_mb	configuration/configurator/detail/validators.hpp	/^    const unsigned long int bytes_in_mb;$/;"	m	class:cf::detail::size_validator
+calculate_ten_in_degree	configuration/configurator/detail/validators.hpp	/^    long double calculate_ten_in_degree( int degree, const std::string& option_name ) const {$/;"	f	class:cf::detail::exp_record_validator
+case_sensitivity_for_names	configuration/configurator/configurator.hpp	/^    bool case_sensitivity_for_names;$/;"	m	class:cf::configurator
+case_sensitivity_for_names	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const bool&         case_sensitivity_for_names;$/;"	m	class:cf::detail::pure_options_obtainer
+catch_kill	include/UH_Define.h	/^static void catch_kill(var_vd (*func)(var_4))$/;"	f
+cf	configuration/configurator/configurator.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/comments_remover.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/incorrect_options_checker.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/misc.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/necessary_options_checker.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/option.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/options_repetition_handler.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/pure_options_obtainer.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/pure_strings_obtainer.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/semantic_checker.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/singleton.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/types.hpp	/^namespace cf {$/;"	n
+cf	configuration/configurator/detail/validators.hpp	/^namespace cf {$/;"	n
+check	configuration/configurator/detail/validators.hpp	/^    void check( const std::string&   what$/;"	f	struct:cf::detail::common_validator
+check	configuration/configurator/detail/validators.hpp	/^    void check( const std::string& exp_record, const std::string& option_name ) {$/;"	f	class:cf::detail::exp_record_validator
+check	configuration/configurator/detail/validators.hpp	/^    void check( const std::string& size, const std::string& option_name ) {$/;"	f	class:cf::detail::size_validator
+check	configuration/configurator/detail/validators.hpp	/^    void check( const std::string& time_period, const std::string& option_name ) {$/;"	f	class:cf::detail::time_period_validator
+check	include/UC_ReadConfigFile.h	/^    inline void check(const std::string& section, const std::string& key)$/;"	f	class:IniConfig
+check_actual_data_existence	configuration/configurator/configurator.hpp	/^    void check_actual_data_existence( detail::str_storage& obtained_strings ) const {$/;"	f	class:cf::configurator
+check_all_options_values_semantic	configuration/configurator/configurator.hpp	/^    detail::semantic_checker            check_all_options_values_semantic;$/;"	m	class:cf::configurator
+check_configuration_file_existence	configuration/configurator/configurator.hpp	/^    void check_configuration_file_existence( const std::string& path_to_configuration_file ) const {$/;"	f	class:cf::configurator
+check_default_value_existence	configuration/configurator/detail/option.hpp	/^    void check_default_value_existence() const {$/;"	f	class:cf::detail::option
+check_duplication_of	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_duplication_of( const std::string& opening_section_name ) {$/;"	f	class:cf::detail::pure_options_obtainer
+check_email_validity	configuration/configurator/detail/validators.hpp	/^inline void check_email_validity( const std::string& email, const std::string& option_name ) {$/;"	f	namespace:cf::detail
+check_exp_record_validity	configuration/configurator/detail/semantic_checker.hpp	/^    exp_record_validator    check_exp_record_validity;$/;"	m	class:cf::detail::semantic_checker
+check_factual_obtaining_of	configuration/configurator/configurator.hpp	/^    void check_factual_obtaining_of( const option& registered_option$/;"	f	class:cf::configurator
+check_func	configuration/configurator/detail/semantic_checker.hpp	/^            check_func;$/;"	t	class:cf::detail::semantic_checker
+check_incorrect_options	configuration/configurator/configurator.hpp	/^    detail::incorrect_options_checker   check_incorrect_options;$/;"	m	class:cf::configurator
+check_ip_validity	configuration/configurator/detail/validators.hpp	/^inline void check_ip_validity( const std::string& address, const std::string& option_name ) {$/;"	f	namespace:cf::detail
+check_ipv4_validity	configuration/configurator/detail/validators.hpp	/^inline void check_ipv4_validity( const std::string& address, const std::string& option_name ) {$/;"	f	namespace:cf::detail
+check_ipv6_validity	configuration/configurator/detail/validators.hpp	/^inline void check_ipv6_validity( const std::string& address, const std::string& option_name ) {$/;"	f	namespace:cf::detail
+check_is_any_section_was_opened	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_is_any_section_was_opened( const std::string& closing_section_name ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+check_last_section_closing	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_last_section_closing() {$/;"	f	class:cf::detail::pure_options_obtainer
+check_multi_values_allowance	configuration/configurator/detail/options_repetition_handler.hpp	/^    void check_multi_values_allowance( const pure_option& factual_obtained_option ) const {$/;"	f	class:cf::detail::options_repetition_handler
+check_necessary_options	configuration/configurator/configurator.hpp	/^    detail::necessary_options_checker   check_necessary_options;$/;"	m	class:cf::configurator
+check_negitivity_of	configuration/configurator/detail/validators.hpp	/^    void check_negitivity_of( const std::string&   what$/;"	f	struct:cf::detail::common_validator
+check_nonmulti_sections_uniqueness	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_nonmulti_sections_uniqueness() {$/;"	f	class:cf::detail::pure_options_obtainer
+check_option_necessity	configuration/configurator/detail/option.hpp	/^    void check_option_necessity() const {$/;"	f	class:cf::detail::option
+check_option_validity	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_option_validity( const std::string& name, const std::string& value ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+check_pair	configuration/configurator/detail/validators.hpp	/^            check_pair;$/;"	t	struct:cf::detail::common_validator
+check_path_existence	configuration/configurator/detail/validators.hpp	/^inline void check_path_existence( const std::string& path, const std::string& option_name ) {$/;"	f	namespace:cf::detail
+check_registered_options_existence	configuration/configurator/configurator.hpp	/^    void check_registered_options_existence() const {$/;"	f	class:cf::configurator
+check_section_existence	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_section_existence( const std::string& section_name ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+check_section_symmetry	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_section_symmetry( const std::string& closing_section_name ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+check_semantic	configuration/configurator/detail/option.hpp	/^    option& check_semantic( const value_semantic& _semantic ) {$/;"	f	class:cf::detail::option
+check_separator_repetition_in	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void check_separator_repetition_in( const str_storage& option_parts ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+check_separator_validity	configuration/configurator/configurator.hpp	/^    void check_separator_validity( char new_separator ) const {$/;"	f	class:cf::configurator
+check_size_validity	configuration/configurator/detail/semantic_checker.hpp	/^    size_validator          check_size_validity;$/;"	m	class:cf::detail::semantic_checker
+check_time_period_validity	configuration/configurator/detail/semantic_checker.hpp	/^    time_period_validator   check_time_period_validity;$/;"	m	class:cf::detail::semantic_checker
+check_unclosed_multi_line_comment	configuration/configurator/detail/comments_remover.hpp	/^    void check_unclosed_multi_line_comment( bool waiting_for_comment_closing ) const {$/;"	f	class:cf::detail::comments_remover
+check_unopened_multi_line_comment_in	configuration/configurator/detail/comments_remover.hpp	/^    void check_unopened_multi_line_comment_in( const std::string& s ) const {$/;"	f	class:cf::detail::comments_remover
+checkers	configuration/configurator/detail/semantic_checker.hpp	/^            checkers;$/;"	t	class:cf::detail::semantic_checker
+clear	include/UH_Define.h	/^	inline void clear()$/;"	f	struct:_cp_stat_time_
+clear	include/UT_HashTable_Pro.h	/^	var_4 clear()$/;"	f	class:UT_HashTable_Pro
+close_MMF	include/UH_Define.h	/^	var_4 close_MMF()$/;"	f	struct:_cp_memory_map_file_
+close_section_tag_begin_sign	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const std::string   close_section_tag_begin_sign;$/;"	m	class:cf::detail::pure_options_obtainer
+close_section_tag_end_sign	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const std::string   close_section_tag_end_sign;$/;"	m	class:cf::detail::pure_options_obtainer
+close_section_tag_exists_in_this	configuration/configurator/detail/pure_options_obtainer.hpp	/^    bool close_section_tag_exists_in_this( const std::string& s ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+collect_names_of_necessary_options	configuration/configurator/detail/necessary_options_checker.hpp	/^    str_storage collect_names_of_necessary_options() const {$/;"	f	class:cf::detail::necessary_options_checker
+comment_closing_in_this	configuration/configurator/detail/comments_remover.hpp	/^    bool comment_closing_in_this( const std::string& s ) const {$/;"	f	class:cf::detail::comments_remover
+comments_remover	configuration/configurator/detail/comments_remover.hpp	/^    comments_remover() :$/;"	f	class:cf::detail::comments_remover
+comments_remover	configuration/configurator/detail/comments_remover.hpp	/^class comments_remover {$/;"	c	namespace:cf::detail
+common_checker	configuration/configurator/detail/validators.hpp	/^            common_checker;$/;"	t	struct:cf::detail::common_validator
+common_handlers	configuration/configurator/detail/validators.hpp	/^            common_handlers;$/;"	t	struct:cf::detail::common_validator
+common_storer	configuration/configurator/detail/validators.hpp	/^            common_storer;$/;"	t	struct:cf::detail::common_validator
+common_validator	configuration/configurator/detail/validators.hpp	/^    common_validator( options& _registered_options, const std::string& _sections_separator ) :$/;"	f	struct:cf::detail::common_validator
+common_validator	configuration/configurator/detail/validators.hpp	/^struct common_validator {$/;"	s	namespace:cf::detail
+config	src/Ring.h	/^	IniConfig* config;$/;"	m	class:Ring
+configs_	include/UC_ReadConfigFile.h	/^    std::map<std::string, KeyValue> configs_;$/;"	m	class:IniConfig
+configurator	configuration/configurator/configurator.hpp	/^    configurator() :$/;"	f	class:cf::configurator
+configurator	configuration/configurator/configurator.hpp	/^class configurator : boost::noncopyable {$/;"	c	namespace:cf
+connect	src/database.h	/^static bool connect(string host, string port, string username, string password, string database)$/;"	f
+convert_name_depending_on_case_sensitivity	configuration/configurator/configurator.hpp	/^    void convert_name_depending_on_case_sensitivity( std::string& full_name_of_option ) const {$/;"	f	class:cf::configurator
+convert_name_depending_on_case_sensitivity	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void convert_name_depending_on_case_sensitivity( std::string& section_name ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+count	include/UC_MD5.h	/^		UINT4 count[2];            \/* number of bits, modulo 2^64 (lsb first) *\/$/;"	m	struct:UC_MD5::__anon3
+cp_accept_socket	include/UH_Define.h	/^static var_4 cp_accept_socket(CP_SOCKET_T in_listen, CP_SOCKET_T& out_socket)$/;"	f
+cp_add_and_fetch	include/UH_Define.h	/^__inline var_u4 cp_add_and_fetch(var_u4* val)$/;"	f
+cp_add_and_fetch	include/UH_Define.h	/^__inline var_u8 cp_add_and_fetch(var_u8* val)$/;"	f
+cp_change_file_size	include/UH_Define.h	/^static var_4 cp_change_file_size(FILE* fp, off_t size)$/;"	f
+cp_change_file_size	include/UH_Define.h	/^static var_4 cp_change_file_size(FILE* fp, var_8 size)$/;"	f
+cp_clear_file	include/UH_Define.h	/^static var_4 cp_clear_file(var_1* org_file)$/;"	f
+cp_close_socket	include/UH_Define.h	1086;"	d
+cp_close_socket	include/UH_Define.h	1088;"	d
+cp_connect_socket	include/UH_Define.h	/^static var_4 cp_connect_socket(CP_SOCKET_T& in_socket, var_1* in_ip, var_u2 in_port)$/;"	f
+cp_create_dir	include/UH_Define.h	/^static var_4 cp_create_dir(var_1* dir)$/;"	f
+cp_create_thread	include/UH_Define.h	/^static var_4 cp_create_thread(LPTHREAD_START_ROUTINE in_function, void* in_argv)$/;"	f
+cp_create_thread	include/UH_Define.h	/^static var_4 cp_create_thread(void* (in_function)(void*), void* in_argv)$/;"	f
+cp_dio_alloc	include/UH_Define.h	/^static inline var_vd* cp_dio_alloc(size_t size)$/;"	f
+cp_dio_close	include/UH_Define.h	/^static inline var_4 cp_dio_close(var_4 fildes)$/;"	f
+cp_dio_free	include/UH_Define.h	/^static inline var_vd cp_dio_free(var_vd* memptr)$/;"	f
+cp_dio_open	include/UH_Define.h	/^static var_4 cp_dio_open(const var_1* name, const var_1* mode)$/;"	f
+cp_dio_read	include/UH_Define.h	/^static inline size_t cp_dio_read(var_4 fildes, var_vd* buf, size_t nbyte)$/;"	f
+cp_dio_seek	include/UH_Define.h	/^static inline off_t cp_dio_seek(var_4 fildes, off_t offset, var_4 whence)$/;"	f
+cp_dio_write	include/UH_Define.h	/^static inline size_t cp_dio_write(var_4 fildes, const var_vd* buf, size_t nbyte)$/;"	f
+cp_dir_close	include/UH_Define.h	/^static var_4 cp_dir_close(var_vd*& handle)$/;"	f
+cp_dir_open	include/UH_Define.h	/^static var_4 cp_dir_open(var_vd*& handle, const var_1* path_name)$/;"	f
+cp_dir_travel	include/UH_Define.h	/^static var_4 cp_dir_travel(var_vd* handle, var_1* file_name)$/;"	f
+cp_drop_useless_char	include/UH_Define.h	/^static var_4 cp_drop_useless_char(var_1* str_ptr)$/;"	f
+cp_drop_useless_char_url	include/UH_Define.h	/^static var_4 cp_drop_useless_char_url(var_1* str_ptr)$/;"	f
+cp_fix_file	include/UH_Define.h	/^static var_4 cp_fix_file(var_1* file, const var_1* end_flag, var_4 end_flag_len, var_8* fix_len = NULL)$/;"	f
+cp_generate_random	include/UH_Define.h	/^const var_vd cp_generate_random(T_Key* result, var_4 num)$/;"	f
+cp_get_file_size	include/UH_Define.h	/^static var_8 cp_get_file_size(var_1* in_file)$/;"	f
+cp_get_local_ip	include/UH_Define.h	/^static var_1* cp_get_local_ip()$/;"	f
+cp_get_uuid	include/UH_Define.h	/^static var_u8 cp_get_uuid()$/;"	f
+cp_init_socket	include/UH_Define.h	/^static var_4 cp_init_socket()$/;"	f
+cp_listen_socket	include/UH_Define.h	/^static var_4 cp_listen_socket(CP_SOCKET_T& in_listen, var_u2 in_port)$/;"	f
+cp_localtime	include/UH_Define.h	/^static struct tm* cp_localtime(time_t local_sec, struct tm* local_tm, var_4 time_zone = 8)$/;"	f
+cp_lock_dec	include/UH_Define.h	/^__inline void cp_lock_dec(var_u4* val)$/;"	f
+cp_lock_dec	include/UH_Define.h	/^__inline void cp_lock_dec(var_u8* val)$/;"	f
+cp_lock_file	include/UH_Define.h	/^static var_4 cp_lock_file(var_4 fd)$/;"	f
+cp_lock_file	include/UH_Define.h	/^static var_4 cp_lock_file(var_4 fd, var_2 type = F_RDLCK)$/;"	f
+cp_lock_inc	include/UH_Define.h	/^__inline void cp_lock_inc(var_u4* val)$/;"	f
+cp_lock_inc	include/UH_Define.h	/^__inline void cp_lock_inc(var_u8* val)$/;"	f
+cp_recovery_file	include/UH_Define.h	/^static var_4 cp_recovery_file(var_1* org_file)$/;"	f
+cp_recvbuf	include/UH_Define.h	/^static var_4 cp_recvbuf(CP_SOCKET_T in_socket, var_1* in_buffer, var_4 in_buflen)$/;"	f
+cp_recvbuf_onebyte	include/UH_Define.h	/^static var_4 cp_recvbuf_onebyte(CP_SOCKET_T in_socket, var_1 end_char, var_1* in_buffer, var_4& in_buflen)$/;"	f
+cp_recvbuf_twobyte	include/UH_Define.h	/^static var_4 cp_recvbuf_twobyte(CP_SOCKET_T in_socket, var_1 end_one, var_1 end_two, var_1* in_buffer, var_4& in_buflen)$/;"	f
+cp_remove_file	include/UH_Define.h	/^static var_4 cp_remove_file(var_1* src_file)$/;"	f
+cp_rename_file	include/UH_Define.h	/^static var_4 cp_rename_file(var_1* src_file, var_1* des_file)$/;"	f
+cp_sendbuf	include/UH_Define.h	/^static var_4 cp_sendbuf(CP_SOCKET_T in_socket, var_1* in_buffer, var_4 in_buflen)$/;"	f
+cp_sendfile	include/UH_Define.h	/^static var_4 cp_sendfile(CP_SOCKET_T in_socket, var_1* in_file)$/;"	f
+cp_set_overtime	include/UH_Define.h	/^static var_4 cp_set_overtime(CP_SOCKET_T in_socket, var_4 in_time)$/;"	f
+cp_skip_useless_char	include/UH_Define.h	/^static var_4 cp_skip_useless_char(var_1* str, var_4 len, var_1*& beg, var_1*& end)$/;"	f
+cp_skip_useless_char_back	include/UH_Define.h	/^static var_1* cp_skip_useless_char_back(var_1* str, var_4 len)$/;"	f
+cp_skip_useless_char_front	include/UH_Define.h	/^static var_1* cp_skip_useless_char_front(var_1* str, var_4 len)$/;"	f
+cp_sleep	include/UH_Define.h	221;"	d
+cp_sleep	include/UH_Define.h	224;"	d
+cp_sleep_s	include/UH_Define.h	222;"	d
+cp_sleep_s	include/UH_Define.h	225;"	d
+cp_strncasecmp	include/UH_Define.h	/^static var_4 cp_strncasecmp(const var_1* s1, const var_1* s2, size_t n)$/;"	f
+cp_strnicmp	include/UH_Define.h	/^static var_4 cp_strnicmp(const var_1* s1, const var_1* s2, size_t n)$/;"	f
+cp_strtoval_64	include/UH_Define.h	631;"	d
+cp_strtoval_64	include/UH_Define.h	634;"	d
+cp_strtoval_64	include/UH_Define.h	639;"	d
+cp_strtoval_u64	include/UH_Define.h	630;"	d
+cp_strtoval_u64	include/UH_Define.h	633;"	d
+cp_strtoval_u64	include/UH_Define.h	638;"	d
+cp_sub_and_fetch	include/UH_Define.h	/^__inline var_u4 cp_sub_and_fetch(var_u4* val)$/;"	f
+cp_sub_and_fetch	include/UH_Define.h	/^__inline var_u8 cp_sub_and_fetch(var_u8* val)$/;"	f
+cp_swap_file	include/UH_Define.h	/^static var_4 cp_swap_file(var_1* new_file, var_1* org_file)$/;"	f
+cp_swap_file_nb	include/UH_Define.h	/^static var_4 cp_swap_file_nb(var_1* new_file, var_1* org_file)$/;"	f
+cp_unlock_file	include/UH_Define.h	/^static var_4 cp_unlock_file(var_4 fd)$/;"	f
+cp_unsegword	include/UH_Define.h	/^static var_4 cp_unsegword(var_1* in_buf, var_4 in_len, var_1* out_buf)$/;"	f
+cp_wait_dispose	include/UH_Define.h	/^static var_vd cp_wait_dispose()$/;"	f
+cp_warning_no_use	include/UH_Define.h	/^static var_vd cp_warning_no_use()$/;"	f
+curSession_	include/UC_ReadConfigFile.h	/^    std::string curSession_;$/;"	m	class:IniConfig
+current_section_path	configuration/configurator/configurator.hpp	/^    std::string                         current_section_path;$/;"	m	class:cf::configurator
+current_section_path	configuration/configurator/detail/pure_options_obtainer.hpp	/^    std::string         current_section_path;$/;"	m	class:cf::detail::pure_options_obtainer
+cut_current_section_name_by	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void cut_current_section_name_by( const std::string& closing_section_name ) {$/;"	f	class:cf::detail::pure_options_obtainer
+cut_current_section_path_if_necessary	configuration/configurator/configurator.hpp	/^    void cut_current_section_path_if_necessary() {$/;"	f	class:cf::configurator
+day_sign	configuration/configurator/detail/validators.hpp	/^    const std::string day_sign;$/;"	m	class:cf::detail::time_period_validator
+default_value	configuration/configurator/detail/option.hpp	/^    option& default_value( const ValueType& _value ) {$/;"	f	class:cf::detail::option
+default_value	configuration/configurator/detail/option.hpp	/^    option& default_value( const std::string& _value ) {$/;"	f	class:cf::detail::option
+default_value_reserve	configuration/configurator/detail/option.hpp	/^    std::string default_value_reserve;$/;"	m	class:cf::detail::option
+del	include/UT_HashTable_Pro.h	/^	var_4 del(T_Key key, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+delete_element	configuration/configurator/detail/misc.hpp	/^inline void delete_element( STLContainer& cont, const Element& element ) {$/;"	f	namespace:cf::detail
+delete_hash	include/heaphashpack.h	/^	const int delete_hash(const TYPE3 key, HASH_TABLE_NODE *& ptr_ret)$/;"	f	class:CHeapHashPack
+destroy	configuration/configurator/detail/singleton.hpp	/^    static void destroy() {$/;"	f	class:cf::detail::singleton
+detail	configuration/configurator/detail/comments_remover.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/incorrect_options_checker.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/misc.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/necessary_options_checker.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/option.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/options_repetition_handler.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/pure_options_obtainer.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/pure_strings_obtainer.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/semantic_checker.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/singleton.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/types.hpp	/^namespace detail {$/;"	n	namespace:cf
+detail	configuration/configurator/detail/validators.hpp	/^namespace detail {$/;"	n	namespace:cf
+doc_info	src/Ring.h	/^typedef struct doc_info$/;"	s
+dwTime_1	include/UH_Define.h	/^	DWORD dwTime_1, dwTime_2;$/;"	m	struct:_cp_stat_time_
+dwTime_2	include/UH_Define.h	/^	DWORD dwTime_1, dwTime_2;$/;"	m	struct:_cp_stat_time_
+email	configuration/configurator/detail/misc.hpp	/^    , email             \/*!< E-mail semantics check. *\/$/;"	e	enum:cf::value_semantic
+empty	configuration/configurator/detail/option.hpp	/^    bool empty() const {$/;"	f	class:cf::detail::option
+empty	configuration/configurator/detail/option.hpp	/^    bool empty() const {$/;"	f	struct:cf::detail::pure_option
+exp_record	configuration/configurator/detail/misc.hpp	/^    , exp_record        \/*!< Exponential record semantics check. *\/$/;"	e	enum:cf::value_semantic
+exp_record_validator	configuration/configurator/detail/validators.hpp	/^    exp_record_validator( options& registered_options, const std::string& sections_separator ) :$/;"	f	class:cf::detail::exp_record_validator
+exp_record_validator	configuration/configurator/detail/validators.hpp	/^class exp_record_validator : common_validator {$/;"	c	namespace:cf::detail
+extract_parts_of_number_from	configuration/configurator/detail/validators.hpp	/^    str_storage extract_parts_of_number_from( const std::string& exp_record ) const {$/;"	f	class:cf::detail::exp_record_validator
+extract_pure_value_from	configuration/configurator/detail/validators.hpp	/^    double extract_pure_value_from( const std::string& string_with_value, const std::string& value_sign ) const {$/;"	f	struct:cf::detail::common_validator
+from	configuration/configurator/configurator.hpp	/^    configurator& from( const std::string& section_name ) {$/;"	f	class:cf::configurator
+from_section	configuration/configurator/configurator.hpp	/^    configurator& from_section( const std::string& section_name ) {$/;"	f	class:cf::configurator
+gb_sign	configuration/configurator/detail/validators.hpp	/^    const std::string gb_sign;$/;"	m	class:cf::detail::size_validator
+get	configuration/configurator/configurator.hpp	/^    ValueType get( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get	configuration/configurator/configurator.hpp	/^    configurator& get( const std::string& name_of_option, ValueType& value ) {$/;"	f	class:cf::configurator
+get	configuration/configurator/configurator.hpp	/^    std::string get( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get	include/UC_ReadConfigFile.h	/^    T get(const std::string& key)$/;"	f	class:IniConfig
+get	include/UC_ReadConfigFile.h	/^    T get(const std::string& section, const std::string& key)$/;"	f	class:IniConfig
+get	include/UC_ReadConfigFile.h	/^    const std::string& get(const std::string& key)$/;"	f	class:IniConfig
+get	include/UC_ReadConfigFile.h	/^    const std::string& get(const std::string& section, const std::string& key)$/;"	f	class:IniConfig
+get_from_here	configuration/configurator/configurator.hpp	/^    ValueType get_from_here( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get_from_here	configuration/configurator/configurator.hpp	/^    configurator& get_from_here( const std::string& name_of_option, ValueType& value ) {$/;"	f	class:cf::configurator
+get_from_here	configuration/configurator/configurator.hpp	/^    std::string get_from_here( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get_option_parts_from	configuration/configurator/detail/pure_options_obtainer.hpp	/^    detail::str_storage get_option_parts_from( const std::string& s ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+get_process_id	include/UH_Define.h	/^static var_4 get_process_id(var_1* process_name)$/;"	f
+get_tag	include/utility.h	/^static var_4 get_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_1 *tag_value, var_1 if_cdata)$/;"	f
+get_tag_pos	include/utility.h	/^static var_4 get_tag_pos(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_4& tag_off, var_4& tag_len, var_1 if_cdata)$/;"	f
+get_time	include/UH_Define.h	/^	static var_4 get_time()$/;"	f	struct:_cp_stat_time_
+get_time	include/UH_Define.h	/^	static var_8 get_time()$/;"	f	struct:_cp_stat_time_
+get_time_ms	include/UH_Define.h	/^	inline var_4 get_time_ms()$/;"	f	struct:_cp_stat_time_
+get_time_s	include/UH_Define.h	/^	inline var_4 get_time_s()$/;"	f	struct:_cp_stat_time_
+get_time_us	include/UH_Define.h	/^	inline var_4 get_time_us()$/;"	f	struct:_cp_stat_time_
+get_type_identifier	configuration/configurator/configurator.hpp	/^    std::string get_type_identifier() const {$/;"	f	class:cf::configurator
+get_value	configuration/configurator/configurator.hpp	/^    ValueType get_value( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get_value	configuration/configurator/configurator.hpp	/^    configurator& get_value( const std::string& name_of_option, ValueType& value ) {$/;"	f	class:cf::configurator
+get_value	configuration/configurator/configurator.hpp	/^    std::string get_value( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get_value_from_here	configuration/configurator/configurator.hpp	/^    ValueType get_value_from_here( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get_value_from_here	configuration/configurator/configurator.hpp	/^    configurator& get_value_from_here( const std::string& name_of_option, ValueType& value ) {$/;"	f	class:cf::configurator
+get_value_from_here	configuration/configurator/configurator.hpp	/^    std::string get_value_from_here( const std::string& name_of_option ) {$/;"	f	class:cf::configurator
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_1 *tag_value, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_4 &tag_value, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_4& tag_off, var_4& tag_len, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_u4 &tag_value, var_1 if_cdata)$/;"	f
+get_xml_tag	include/utility.h	/^static var_4 get_xml_tag(var_1 *xml, var_4 xml_len, const var_1 *tag_name, var_u8 &tag_value, var_1 if_cdata)$/;"	f
+handle_closing_of_section	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void handle_closing_of_section( const std::string& s ) {$/;"	f	class:cf::detail::pure_options_obtainer
+handle_opening_of_section	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void handle_opening_of_section( const std::string& s ) {$/;"	f	class:cf::detail::pure_options_obtainer
+handle_options_repetition	configuration/configurator/configurator.hpp	/^    detail::options_repetition_handler  handle_options_repetition;$/;"	m	class:cf::configurator
+handlers	configuration/configurator/detail/validators.hpp	/^    common_handlers handlers;$/;"	m	struct:cf::detail::common_validator
+hash_table_node	include/heaphashpack.h	/^	typedef struct hash_table_node$/;"	s	class:CHeapHashPack
+hour_sign	configuration/configurator/detail/validators.hpp	/^    const std::string hour_sign;$/;"	m	class:cf::detail::time_period_validator
+iLineNum	include/WFMonitor.h	/^        int iLineNum;$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+iThreadID	include/WFMonitor.h	/^        int iThreadID;$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+in	configuration/configurator/configurator.hpp	/^    configurator& in( const std::string& section_name ) {$/;"	f	class:cf::configurator
+in_file	include/UH_Define.h	/^	HANDLE  in_file;$/;"	m	struct:_cp_memory_map_file_
+in_section	configuration/configurator/configurator.hpp	/^    configurator& in_section( const std::string& section_name ) {$/;"	f	class:cf::configurator
+incorrect_options	configuration/configurator/detail/incorrect_options_checker.hpp	/^    str_storage incorrect_options;$/;"	m	class:cf::detail::incorrect_options_checker
+incorrect_options_checker	configuration/configurator/detail/incorrect_options_checker.hpp	/^    incorrect_options_checker( const options& _registered_options$/;"	f	class:cf::detail::incorrect_options_checker
+incorrect_options_checker	configuration/configurator/detail/incorrect_options_checker.hpp	/^class incorrect_options_checker {$/;"	c	namespace:cf::detail
+init	include/UT_HashTable_Pro.h	/^	var_4 init(var_8 table_size, var_u8 max_key_num = -1, var_4 store_size = 0, var_1* name_sto = NULL, var_1* name_inc = NULL, var_1* name_flg = NULL, var_4 is_delay_recycle = 0)$/;"	f	class:UT_HashTable_Pro
+init	src/Ring.cpp	/^int Ring::init(string cfg)$/;"	f	class:Ring
+initMem	include/UC_Allocator_Recycle.h	/^	var_4 initMem(var_8 lBlockSize\/* 每块buf大小 *\/, var_8 lMaxBlockNum = 0\/* 最大buf块数 *\/, var_8 lPerAllocBlockNum = 0\/* 每段"buffer段"buf块数 *\/)$/;"	f	class:UC_Allocator_Recycle
+inst	configuration/configurator/detail/singleton.hpp	/^    static T& inst() {$/;"	f	class:cf::detail::singleton
+int16_t	include/WFInt.h	/^    typedef __int16           int16_t;$/;"	t
+int32_t	include/WFInt.h	/^    typedef __int32           int32_t;$/;"	t
+int64_t	include/WFInt.h	/^    typedef __int64           int64_t;$/;"	t
+int8_t	include/WFInt.h	/^    typedef __int8            int8_t;$/;"	t
+ioctlsocket	include/WFSocket.h	42;"	d
+ip	configuration/configurator/detail/misc.hpp	/^    , ip                \/*!< IP semantics check. *\/$/;"	e	enum:cf::value_semantic
+ipv4	configuration/configurator/detail/misc.hpp	/^	, ipv4				\/*!< IPv4 semantics check. *\/$/;"	e	enum:cf::value_semantic
+ipv6	configuration/configurator/detail/misc.hpp	/^    , ipv6              \/*!< IPv6 semantics check. *\/$/;"	e	enum:cf::value_semantic
+is_delete	include/UT_HashTable_Pro.h	/^	var_4  is_delete;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+is_dynamic	include/UT_HashTable_Pro.h	/^	var_4  is_dynamic;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+is_lock	include/UT_HashTable_Pro.h	/^	var_4  is_lock;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+is_necessary	configuration/configurator/detail/option.hpp	/^    bool is_necessary;$/;"	m	class:cf::detail::option
+it_is_necessary	configuration/configurator/detail/option.hpp	/^    bool it_is_necessary() const {$/;"	f	class:cf::detail::option
+iterators_to_strings	configuration/configurator/detail/types.hpp	/^typedef std::vector< str_it >       iterators_to_strings;$/;"	t	namespace:cf::detail
+kb_sign	configuration/configurator/detail/validators.hpp	/^    const std::string kb_sign;$/;"	m	class:cf::detail::size_validator
+left	include/utility.h	/^    T1 left;$/;"	m	struct:simple_pair
+load	include/UT_HashTable_Pro.h	/^	var_4 load(var_1* library_file, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+lock	include/UH_Define.h	/^	inline void lock()$/;"	f	struct:CP_MutexLock
+lock_r	include/UH_Define.h	/^	inline void lock_r()$/;"	f	struct:CP_MutexLock_RW
+lock_r	include/UH_Define.h	/^	inline void lock_r(CP_MUTEXLOCK_RW_LCK* lck)$/;"	f	struct:CP_MutexLock_RW_FUN
+lock_store	include/UT_HashTable_Pro.h	/^	inline var_vd lock_store(var_1* head)$/;"	f	class:UT_HashTable_Pro
+lock_table_r	include/UT_HashTable_Pro.h	/^	inline var_vd lock_table_r(var_8 idx)$/;"	f	class:UT_HashTable_Pro
+lock_table_w	include/UT_HashTable_Pro.h	/^	inline var_vd lock_table_w(var_8 idx)$/;"	f	class:UT_HashTable_Pro
+lock_w	include/UH_Define.h	/^	inline void lock_w()$/;"	f	struct:CP_MutexLock_RW
+lock_w	include/UH_Define.h	/^	inline void lock_w(CP_MUTEXLOCK_RW_LCK* lck)$/;"	f	struct:CP_MutexLock_RW_FUN
+locker	include/UH_Define.h	/^	pthread_mutex_t locker;$/;"	m	struct:CP_MutexLock_RW
+m_32AllocCount	include/WFMem.h	/^    size_t m_32AllocCount;      \/\/已分配的块数量$/;"	m	class:nsWFMem::CBlockMemory
+m_AcceptQueue	include/WFSocket.h	/^    nsWFQueue::CBlockListQueue m_AcceptQueue;   \/\/Accept队列$/;"	m	class:nsWFSocket::CTcpServer
+m_AcceptThread	include/WFSocket.h	/^    nsWFThread::CThread m_AcceptThread;         \/\/Accpet线程$/;"	m	class:nsWFSocket::CTcpServer
+m_BlockSize	include/WFMem.h	/^    size_t m_BlockSize;         \/\/每个块的大小$/;"	m	class:nsWFMem::CBlockMemory
+m_CurrAllocSize	include/WFMem.h	/^    size_t m_CurrAllocSize; \/\/当前块已分配的内存大小$/;"	m	class:nsWFMem::CReuseMemory
+m_CurrMemIndex	include/WFMem.h	/^    size_t m_CurrMemIndex;  \/\/当前内存块的索引$/;"	m	class:nsWFMem::CReuseMemory
+m_CurrQueueLen	include/WFQueue.h	/^    size_t m_CurrQueueLen;  \/\/当前队列长度$/;"	m	class:nsWFQueue::CBlockListQueue
+m_CurrQueueLen	include/WFQueue.h	/^    size_t m_CurrQueueLen;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_CurrThreadCount	include/WFThread.h	/^    size_t m_CurrThreadCount;   \/\/线程数量$/;"	m	class:nsWFThread::CThread
+m_DataBlockMem	include/WFMem.h	/^    CBlockMemory m_DataBlockMem;    \/\/数据块内存$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_DataBlockSize	include/WFMem.h	/^    size_t m_DataBlockSize;         \/\/数据块大小$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_FlushFreq	include/WFLog.h	/^    size_t m_FlushFreq;             \/\/刷新频率$/;"	m	class:nsWFLog::CDailyLog
+m_FreeDelaySec	include/WFMem.h	/^    size_t m_FreeDelaySec;          \/\/检查释放时的延迟偏移$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_Lock	include/WFQueue.h	/^    nsWFLock::CLock m_Lock;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_Log	include/WFMonitor.h	/^    nsWFLog::CDailyLog m_Log;               \/\/日志$/;"	m	class:nsWFMonitor::CMonitor
+m_MaxDataSize	include/WFQueue.h	/^    size_t m_MaxDataSize;   \/\/队列保存数据的最大长度$/;"	m	class:nsWFQueue::CBlockListQueue
+m_MaxLogSize	include/WFLog.h	/^    size_t m_MaxLogSize;            \/\/日志文件的最大长度$/;"	m	class:nsWFLog::CTrySaveLog
+m_MaxMemIndex	include/WFMem.h	/^    size_t m_MaxMemIndex;   \/\/内存块索引的最大位置$/;"	m	class:nsWFMem::CReuseMemory
+m_MaxQueueLen	include/WFQueue.h	/^    size_t m_MaxQueueLen;   \/\/最大队列长度$/;"	m	class:nsWFQueue::CBlockListQueue
+m_MaxQueueLen	include/WFQueue.h	/^    size_t m_MaxQueueLen;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_MaxThreadCount	include/WFThread.h	/^    size_t m_MaxThreadCount;    \/\/最大线程数量$/;"	m	class:nsWFThread::CThread
+m_MemSize	include/WFMem.h	/^    size_t m_MemSize;       \/\/每个内存块的大小$/;"	m	class:nsWFMem::CReuseMemory
+m_Memory	include/WFMem.h	/^    CReuseMemory m_Memory;      \/\/内存管理器$/;"	m	class:nsWFMem::CBlockMemory
+m_MonitorServer	include/WFMonitor.h	/^    nsWFSocket::CTcpServer m_MonitorServer; \/\/监控服务$/;"	m	class:nsWFMonitor::CMonitor
+m_MonitorThread	include/WFMonitor.h	/^    nsWFThread::CThread m_MonitorThread;    \/\/监控线程$/;"	m	class:nsWFMonitor::CMonitor
+m_PeriodHeadMem	include/WFMem.h	/^    CBlockMemory m_PeriodHeadMem;   \/\/周期头结点内存$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_PeriodLen	include/WFMem.h	/^    size_t m_PeriodLen;             \/\/周期大小，单位为秒$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_QueueNodeMem	include/WFQueue.h	/^    nsWFMem::CBlockMemory m_QueueNodeMem;   \/\/队列结点内存管理对象$/;"	m	class:nsWFQueue::CBlockListQueue
+m_SaveCount	include/WFLog.h	/^    size_t m_SaveCount;             \/\/保存次数$/;"	m	class:nsWFLog::CDailyLog
+m_SavePeriod	include/WFLog.h	/^    size_t m_SavePeriod;            \/\/保存周期$/;"	m	class:nsWFLog::CDailyLog
+m_aQueue	include/WFQueue.h	/^	CBlockListQueue **m_aQueue;$/;"	m	class:nsWFQueue::CBlockListSet
+m_ar	include/UT_HashTable_Pro.h	/^	UC_Allocator_Recycle m_ar;$/;"	m	class:UT_HashTable_Pro
+m_bNeedTimeStamp	include/WFLog.h	/^    bool m_bNeedTimeStamp;          \/\/是否需要时间戳$/;"	m	class:nsWFLog::CDailyLog
+m_bNeedTimeStamp	include/WFLog.h	/^    bool m_bNeedTimeStamp;          \/\/是否需要时间戳$/;"	m	class:nsWFLog::CTrySaveLog
+m_bRun	include/WFMonitor.h	/^    bool m_bRun;                            \/\/线程运行标志$/;"	m	class:nsWFMonitor::CMonitor
+m_bRun	include/WFSocket.h	/^    bool m_bRun;                                \/\/线程运行标志$/;"	m	class:nsWFSocket::CTcpServer
+m_cEventCriSec	include/UT_Queue.h	/^	CP_MUTEXLOCK m_cEventCriSec;$/;"	m	class:UT_Queue
+m_cMutexLock	include/UC_Allocator_Recycle.h	/^	CP_MUTEXLOCK m_cMutexLock;$/;"	m	class:UC_Allocator_Recycle
+m_cOpenFlag	include/UH_Define.h	/^	var_1   m_cOpenFlag;$/;"	m	struct:_cp_memory_map_file_
+m_cQueueCriSec	include/UT_Queue.h	/^	CP_MUTEXLOCK m_cQueueCriSec;$/;"	m	class:UT_Queue
+m_capacity	include/utility.h	/^    var_u4  m_capacity;$/;"	m	class:static_array
+m_cpAllocator_FL	include/UT_HashSearch.h	/^	UC_Allocator_Recycle* m_cpAllocator_FL;$/;"	m	class:UT_HashSearch
+m_cpAllocator_VL	include/UT_HashSearch.h	/^	UT_Allocator<var_1>*  m_cpAllocator_VL;$/;"	m	class:UT_HashSearch
+m_cri	include/WFLock.h	/^        CRITICAL_SECTION m_cri;$/;"	m	class:nsWFLock::CLock
+m_doc_info	src/Ring.h	/^	vector<DOC_INFO> m_doc_info;$/;"	m	class:Ring
+m_dp	include/WFPub.h	/^    DIR *m_dp;$/;"	m	class:nsWFPub::CTraversalDir
+m_entry	include/WFPub.h	/^    struct dirent *m_entry;$/;"	m	class:nsWFPub::CTraversalDir	typeref:struct:nsWFPub::CTraversalDir::dirent
+m_file_inc	include/UT_HashTable_Pro.h	/^	FILE* m_file_inc;$/;"	m	class:UT_HashTable_Pro
+m_filestat	include/WFPub.h	/^    struct stat m_filestat;$/;"	m	class:nsWFPub::CTraversalDir	typeref:struct:nsWFPub::CTraversalDir::stat
+m_fpA	include/WFLog.h	/^    FILE *m_fpA;                    \/\/文件追加指针$/;"	m	class:nsWFLog::CDailyLog
+m_global_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK_RW m_global_lck; \/\/ for clear, save, trim$/;"	m	class:UT_HashTable_Pro
+m_hFile	include/WFPub.h	/^    long m_hFile;$/;"	m	class:nsWFPub::CTraversalDir
+m_hash_size	include/heaphashpack.h	/^	int                  m_hash_size;$/;"	m	class:CHeapHashPack
+m_iCur	include/heaphashpack.h	/^	int                 m_iCur, m_iMax; $/;"	m	class:CHeapHashPack
+m_iDefaultQueueDataSize	include/WFQueue.h	/^	int m_iDefaultQueueDataSize;$/;"	m	class:nsWFQueue::CBlockListSet
+m_iDefaultQueueLen	include/WFQueue.h	/^	int m_iDefaultQueueLen; $/;"	m	class:nsWFQueue::CBlockListSet
+m_iMax	include/heaphashpack.h	/^	int                 m_iCur, m_iMax; $/;"	m	class:CHeapHashPack
+m_iMaxOutTime	include/WFMonitor.h	/^    int m_iMaxOutTime;              \/\/监控服务的报警阈值，单位为秒$/;"	m	class:nsWFMonitor::CMonitor
+m_iMaxPriority	include/WFQueue.h	/^    int m_iMaxPriority;$/;"	m	class:nsWFQueue::CPriorityBlockQueue
+m_iMaxThreadCount	include/WFMonitor.h	/^    int m_iMaxThreadCount;          \/\/监控服务支持的最大线程数$/;"	m	class:nsWFMonitor::CMonitor
+m_iMinPriority	include/WFQueue.h	/^    int m_iMinPriority;$/;"	m	class:nsWFQueue::CPriorityBlockQueue
+m_iQueueCount	include/WFQueue.h	/^	int m_iQueueCount;$/;"	m	class:nsWFQueue::CBlockListSet
+m_is_delay_recycle	include/UT_HashTable_Pro.h	/^	var_4 m_is_delay_recycle;$/;"	m	class:UT_HashTable_Pro
+m_is_persistent	include/UT_HashTable_Pro.h	/^	var_4 m_is_persistent;$/;"	m	class:UT_HashTable_Pro
+m_lAllAllocLen	include/UT_Allocator.h	/^	var_8 m_lAllAllocLen;$/;"	m	class:UT_Allocator
+m_lAllDataNum	include/UT_HashSearch.h	/^	var_4 m_lAllDataNum;$/;"	m	class:UT_HashSearch
+m_lBegPos	include/UT_Queue.h	/^	var_4 m_lBegPos;$/;"	m	class:UT_Queue
+m_lBlockSize	include/UC_Allocator_Recycle.h	/^	var_8 m_lBlockSize;$/;"	m	class:UC_Allocator_Recycle
+m_lBufMemLen	include/UC_Allocator_Recycle.h	/^	var_8 m_lBufMemLen;$/;"	m	class:UC_Allocator_Recycle
+m_lCurBlockLen	include/UT_Allocator.h	/^	var_8 m_lCurBlockLen;$/;"	m	class:UT_Allocator
+m_lCurBlockNum	include/UT_Allocator.h	/^	var_8 m_lCurBlockNum;$/;"	m	class:UT_Allocator
+m_lCurQueueSize	include/UT_Queue.h	/^	var_4 m_lCurQueueSize;$/;"	m	class:UT_Queue
+m_lCurUseLen	include/UC_Allocator_Recycle.h	/^	var_8 m_lCurUseLen;$/;"	m	class:UC_Allocator_Recycle
+m_lDataLen	include/UT_HashSearch.h	/^	var_4 m_lDataLen;$/;"	m	class:UT_HashSearch
+m_lEndPos	include/UT_Queue.h	/^	var_4 m_lEndPos;$/;"	m	class:UT_Queue
+m_lHashTableSize	include/UT_HashSearch.h	/^	var_4   m_lHashTableSize;$/;"	m	class:UT_HashSearch
+m_lIsInitSystem	include/UT_HashSearch.h	/^	var_4 m_lIsInitSystem;$/;"	m	class:UT_HashSearch
+m_lMaxBlockLen	include/UT_Allocator.h	/^	var_8 m_lMaxBlockLen;	$/;"	m	class:UT_Allocator
+m_lMaxBlockNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lMaxBlockNum;$/;"	m	class:UC_Allocator_Recycle
+m_lMaxBlockNum	include/UT_Allocator.h	/^	var_8 m_lMaxBlockNum;$/;"	m	class:UT_Allocator
+m_lMaxBufNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lMaxBufNum;$/;"	m	class:UC_Allocator_Recycle
+m_lMaxMemNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lMaxMemNum;$/;"	m	class:UC_Allocator_Recycle
+m_lMaxQueueSize	include/UT_Queue.h	/^	var_4 m_lMaxQueueSize;$/;"	m	class:UT_Queue
+m_lStat_AllocNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lStat_AllocNum;$/;"	m	class:UC_Allocator_Recycle
+m_lStat_RecycleNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lStat_RecycleNum;$/;"	m	class:UC_Allocator_Recycle
+m_lTravelIndex	include/UT_HashSearch.h	/^	var_4  m_lTravelIndex;$/;"	m	class:UT_HashSearch
+m_lUseBufNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lUseBufNum;$/;"	m	class:UC_Allocator_Recycle
+m_lUseMemNum	include/UC_Allocator_Recycle.h	/^	var_8 m_lUseMemNum;$/;"	m	class:UC_Allocator_Recycle
+m_lck_key_num	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK m_lck_key_num;$/;"	m	class:UT_HashTable_Pro
+m_len_del	include/UT_HashTable_Pro.h	/^	var_4 m_len_del;$/;"	m	class:UT_HashTable_Pro
+m_len_lck	include/UT_HashTable_Pro.h	/^	var_4 m_len_lck;$/;"	m	class:UT_HashTable_Pro
+m_len_mem	include/UT_HashTable_Pro.h	/^	var_4 m_len_mem;$/;"	m	class:UT_HashTable_Pro
+m_len_ptr	include/UT_HashTable_Pro.h	/^	var_4 m_len_ptr;$/;"	m	class:UT_HashTable_Pro
+m_len_ref	include/UT_HashTable_Pro.h	/^	var_4 m_len_ref;$/;"	m	class:UT_HashTable_Pro
+m_len_sto	include/UT_HashTable_Pro.h	/^	var_4 m_len_sto;$/;"	m	class:UT_HashTable_Pro
+m_lock	include/WFLog.h	/^    nsWFLock::CLock m_lock;         \/\/日志锁$/;"	m	class:nsWFLog::CTrySaveLog
+m_lock	include/WFLog.h	/^    nsWFLock::CLock m_lock;         \/\/写文件的锁$/;"	m	class:nsWFLog::CDailyLog
+m_lock	include/WFMem.h	/^    nsWFLock::CLock m_lock;         \/\/分配锁$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_lock	include/WFMem.h	/^    nsWFLock::CLock m_lock;     \/\/分配锁$/;"	m	class:nsWFMem::CBlockMemory
+m_lock	include/WFMem.h	/^    nsWFLock::CLock m_lock; \/\/分配锁$/;"	m	class:nsWFMem::CReuseMemory
+m_lock	include/WFMonitor.h	/^    nsWFLock::CLock m_lock;                 \/\/互斥锁$/;"	m	class:nsWFMonitor::CMonitor
+m_lock	include/WFQueue.h	/^    nsWFLock::CLock m_lock; \/\/队列锁$/;"	m	class:nsWFQueue::CBlockListQueue
+m_lockArray	include/WFQueue.h	/^	nsWFLock::CLock m_lockArray;$/;"	m	class:nsWFQueue::CBlockListSet
+m_lpHashTable	include/UT_HashSearch.h	/^	var_1** m_lpHashTable;$/;"	m	class:UT_HashSearch
+m_max_key_num	include/UT_HashTable_Pro.h	/^	var_u8       m_max_key_num;$/;"	m	class:UT_HashTable_Pro
+m_name_flg	include/UT_HashTable_Pro.h	/^	var_1 m_name_flg[256];$/;"	m	class:UT_HashTable_Pro
+m_name_inc	include/UT_HashTable_Pro.h	/^	var_1 m_name_inc[256];$/;"	m	class:UT_HashTable_Pro
+m_name_sto	include/UT_HashTable_Pro.h	/^	var_1 m_name_sto[256];$/;"	m	class:UT_HashTable_Pro
+m_now_key_num	include/UT_HashTable_Pro.h	/^	var_u8       m_now_key_num;$/;"	m	class:UT_HashTable_Pro
+m_pHead	include/WFQueue.h	/^    SNode *m_pHead;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_pHead	include/WFQueue.h	/^    char *m_pHead;  \/\/队头指针，用于取结点出队$/;"	m	class:nsWFQueue::CBlockListQueue
+m_pIdle	include/WFMem.h	/^    void *m_pIdle;              \/\/空闲链首地址$/;"	m	class:nsWFMem::CBlockMemory
+m_pIdleNode	include/WFQueue.h	/^    SNode *m_pIdleNode;$/;"	m	class:nsWFQueue::CCheckTimeoutList
+m_pLock	include/WFLock.h	/^    CLock *m_pLock;$/;"	m	class:nsWFLock::CAutolock
+m_pMemIndex	include/WFMem.h	/^    char **m_pMemIndex;     \/\/内存块索引$/;"	m	class:nsWFMem::CReuseMemory
+m_pPeriodList	include/WFMem.h	/^    SPeriodHead *m_pPeriodList;     \/\/按照ExpiredPeriod递减的顺序进行组织$/;"	m	class:nsWFMem::CFreeByTimeMemory
+m_pTail	include/WFQueue.h	/^    char *m_pTail;  \/\/队尾指针，用于加结点入队$/;"	m	class:nsWFQueue::CBlockListQueue
+m_pThreadID	include/WFThread.h	/^    void **m_pThreadID;         \/\/线程ID数组首地址，用于保存已启动的线程的信息$/;"	m	class:nsWFThread::CThread
+m_paThreadInfo	include/WFMonitor.h	/^    SThreadInfo *m_paThreadInfo;    \/\/用于保存线程状态的数组首地址$/;"	m	class:nsWFMonitor::CMonitor
+m_persistent_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK    m_persistent_lck;$/;"	m	class:UT_HashTable_Pro
+m_pointer	include/utility.h	/^    T* m_pointer;$/;"	m	class:static_array
+m_ptr_free_mem	include/heaphashpack.h	/^	HASH_TABLE_NODE     *m_ptr_free_mem;$/;"	m	class:CHeapHashPack
+m_reqsvr_socket	src/Ring.h	/^	CP_SOCKET_T m_reqsvr_socket;$/;"	m	class:Ring
+m_run_status	src/Ring.h	/^	int m_run_status;$/;"	m	class:Ring
+m_sFileinfo	include/WFPub.h	/^    struct _finddata_t m_sFileinfo;$/;"	m	class:nsWFPub::CTraversalDir	typeref:struct:nsWFPub::CTraversalDir::_finddata_t
+m_size	include/utility.h	/^    var_u4  m_size;$/;"	m	class:static_array
+m_sockListen	include/WFSocket.h	/^    sock_descriptor m_sockListen;               \/\/监听socket$/;"	m	class:nsWFSocket::CTcpServer
+m_spHI	include/heaphashpack.h	/^	HASH_TABLE_NODE	   **m_spHI;	$/;"	m	class:CHeapHashPack
+m_spHash	include/heaphashpack.h	/^	HASH_TABLE_NODE    **m_spHash;$/;"	m	class:CHeapHashPack
+m_static_travel	include/UT_HashTable_Pro.h	/^	var_4        m_static_travel;$/;"	m	class:UT_HashTable_Pro
+m_static_travel_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK m_static_travel_lck;$/;"	m	class:UT_HashTable_Pro
+m_store_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK* m_store_lck;$/;"	m	class:UT_HashTable_Pro
+m_store_lck_num	include/UT_HashTable_Pro.h	/^	var_4         m_store_lck_num;$/;"	m	class:UT_HashTable_Pro
+m_store_size	include/UT_HashTable_Pro.h	/^	var_4 m_store_size;$/;"	m	class:UT_HashTable_Pro
+m_szDir	include/WFPub.h	/^    char m_szDir[FILENAME_MAX];$/;"	m	class:nsWFPub::CTraversalDir
+m_szLogDir	include/WFLog.h	/^    char m_szLogDir[FILENAME_MAX];  \/\/日志目录$/;"	m	class:nsWFLog::CDailyLog
+m_szLogDir	include/WFLog.h	/^    char m_szLogDir[FILENAME_MAX];  \/\/日志目录$/;"	m	class:nsWFLog::CTrySaveLog
+m_szPattern	include/WFPub.h	/^    char m_szPattern[FILENAME_MAX];$/;"	m	class:nsWFPub::CTraversalDir
+m_szPrefix	include/WFLog.h	/^    char m_szPrefix[FILENAME_MAX];  \/\/日志前缀$/;"	m	class:nsWFLog::CDailyLog
+m_szPrefix	include/WFLog.h	/^    char m_szPrefix[FILENAME_MAX];  \/\/日志前缀$/;"	m	class:nsWFLog::CTrySaveLog
+m_szpRecycleLibrary	include/UC_Allocator_Recycle.h	/^	var_1*  m_szpRecycleLibrary;$/;"	m	class:UC_Allocator_Recycle
+m_szpTravelPos	include/UT_HashSearch.h	/^	var_1* m_szpTravelPos;$/;"	m	class:UT_HashSearch
+m_szppBlockLibrary	include/UC_Allocator_Recycle.h	/^	var_1** m_szppBlockLibrary;$/;"	m	class:UC_Allocator_Recycle
+m_tLastOpenDay	include/WFLog.h	/^    time_t m_tLastOpenDay;          \/\/上次打开文件的时间，以天为单位$/;"	m	class:nsWFLog::CDailyLog
+m_tLastOpenTime	include/WFLog.h	/^    time_t m_tLastOpenTime;         \/\/上次打开文件的时间，以秒为单位$/;"	m	class:nsWFLog::CDailyLog
+m_table_flg	include/UT_HashTable_Pro.h	/^	var_4*  m_table_flg;$/;"	m	class:UT_HashTable_Pro
+m_table_lck	include/UT_HashTable_Pro.h	/^	CP_MUTEXLOCK* m_table_lck;$/;"	m	class:UT_HashTable_Pro
+m_table_lck_num	include/UT_HashTable_Pro.h	/^	var_4         m_table_lck_num;$/;"	m	class:UT_HashTable_Pro
+m_table_ptr	include/UT_HashTable_Pro.h	/^	var_1** m_table_ptr;$/;"	m	class:UT_HashTable_Pro
+m_table_size	include/UT_HashTable_Pro.h	/^	var_8 m_table_size;$/;"	m	class:UT_HashTable_Pro
+m_tpData1	include/heaphashpack.h	/^	TYPE2			   *m_tpData1;$/;"	m	class:CHeapHashPack
+m_tpData2	include/heaphashpack.h	/^	TYPE3              *m_tpData2;$/;"	m	class:CHeapHashPack
+m_tpKey	include/heaphashpack.h	/^	TYPE1			   *m_tpKey; $/;"	m	class:CHeapHashPack
+m_tpQueue	include/UT_Queue.h	/^	T_Key* m_tpQueue;$/;"	m	class:UT_Queue
+m_tppBlockLibrary	include/UT_Allocator.h	/^	T**   m_tppBlockLibrary;	$/;"	m	class:UT_Allocator
+main	configuration/example/advanced.cpp	/^int main( int argc, char* argv[] ) {$/;"	f
+main	configuration/example/hello_world.cpp	/^int main( int argc, char* argv[] ) {	$/;"	f
+main	src/main.cpp	/^int main(int argc, char* argv[])$/;"	f
+max	include/common_def.h	67;"	d
+mb_sign	configuration/configurator/detail/validators.hpp	/^    const std::string mb_sign;$/;"	m	class:cf::detail::size_validator
+min	include/common_def.h	71;"	d
+minute_sign	configuration/configurator/detail/validators.hpp	/^    const std::string minute_sign;$/;"	m	class:cf::detail::time_period_validator
+multi_line_comment_begin_sign	configuration/configurator/detail/comments_remover.hpp	/^    const std::string multi_line_comment_begin_sign;$/;"	m	class:cf::detail::comments_remover
+multi_line_comment_end_sign	configuration/configurator/detail/comments_remover.hpp	/^    const std::string multi_line_comment_end_sign;$/;"	m	class:cf::detail::comments_remover
+multi_values_allowed	configuration/configurator/detail/option.hpp	/^    bool multi_values_allowed;$/;"	m	class:cf::detail::option
+mutex	configuration/configurator/detail/singleton.hpp	/^    static boost::mutex mutex;$/;"	m	class:cf::detail::singleton
+mutex	configuration/configurator/detail/singleton.hpp	/^boost::mutex singleton< T >::mutex;$/;"	m	class:cf::detail::singleton
+mutex	include/UH_Define.h	/^	CRITICAL_SECTION mutex;$/;"	m	struct:CP_MutexLock
+mutex	include/UH_Define.h	/^	CRITICAL_SECTION mutex;$/;"	m	struct:CP_MutexLock_RW
+mutex	include/UH_Define.h	/^	CRITICAL_SECTION mutex;$/;"	m	struct:CP_MutexLock_RW_FUN
+mutex	include/UH_Define.h	/^	pthread_mutex_t mutex;$/;"	m	struct:CP_MutexLock
+mutex	include/UH_Define.h	/^	pthread_mutex_t mutex;$/;"	m	struct:CP_MutexLock_RW_FUN
+mysql	src/database.h	/^static MYSQL mysql;$/;"	v
+name	configuration/configurator/detail/option.hpp	/^    std::string name;$/;"	m	class:cf::detail::option
+name	configuration/configurator/detail/option.hpp	/^    std::string name;$/;"	m	struct:cf::detail::pure_option
+name	src/Ring.h	/^	string name;$/;"	m	struct:doc_info
+necessary	configuration/configurator/detail/option.hpp	/^    option& necessary() {$/;"	f	class:cf::detail::option
+necessary_options_checker	configuration/configurator/detail/necessary_options_checker.hpp	/^    necessary_options_checker( const options& _registered_options$/;"	f	class:cf::detail::necessary_options_checker
+necessary_options_checker	configuration/configurator/detail/necessary_options_checker.hpp	/^class necessary_options_checker {$/;"	c	namespace:cf::detail
+no_repetition	configuration/configurator/detail/options_repetition_handler.hpp	/^    bool no_repetition( const pure_options& unique_options, const pure_options& factual_obtained_options ) const {$/;"	f	class:cf::detail::options_repetition_handler
+no_semantic	configuration/configurator/detail/misc.hpp	/^    no_semantic			\/*!< Default value. *\/$/;"	e	enum:cf::value_semantic
+nonmulti_sections_uniqueness_checker	configuration/configurator/detail/pure_options_obtainer.hpp	/^    str_set             nonmulti_sections_uniqueness_checker;$/;"	m	class:cf::detail::pure_options_obtainer
+notify	configuration/configurator/detail/misc.hpp	/^inline void notify( const std::string& notification ) {$/;"	f	namespace:cf
+notify_about_incorrect_options_if_such_exists	configuration/configurator/detail/incorrect_options_checker.hpp	/^    void notify_about_incorrect_options_if_such_exists() const {$/;"	f	class:cf::detail::incorrect_options_checker
+notify_about_incorrect_section_name	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void notify_about_incorrect_section_name( const std::string& incorrect_section_name ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+notify_about_invalid_exp_record	configuration/configurator/detail/validators.hpp	/^    void notify_about_invalid_exp_record( const std::string& option_name$/;"	f	class:cf::detail::exp_record_validator
+notify_about_meaningless_string	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void notify_about_meaningless_string( const std::string& s ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+notify_about_missing_of_necessary_options	configuration/configurator/detail/necessary_options_checker.hpp	/^    void notify_about_missing_of_necessary_options( const str_storage& names_that_should_be ) const {$/;"	f	class:cf::detail::necessary_options_checker
+notify_without_prefix	configuration/configurator/detail/misc.hpp	/^inline void notify_without_prefix( const std::string& notification ) {$/;"	f	namespace:cf::detail
+nsWFLock	include/WFLock.h	/^namespace nsWFLock$/;"	n
+nsWFLog	include/WFLog.h	/^namespace nsWFLog$/;"	n
+nsWFMem	include/WFMem.h	/^namespace nsWFMem$/;"	n
+nsWFMonitor	include/WFMonitor.h	/^namespace nsWFMonitor$/;"	n
+nsWFPub	include/WFPub.h	/^namespace nsWFPub$/;"	n
+nsWFQueue	include/WFQueue.h	/^namespace nsWFQueue$/;"	n
+nsWFSocket	include/WFSocket.h	/^namespace nsWFSocket$/;"	n
+nsWFThread	include/WFThread.h	/^namespace nsWFThread$/;"	n
+num	include/UT_HashTable_Pro.h	/^	var_4 num()$/;"	f	class:UT_HashTable_Pro
+o_stream	configuration/configurator/detail/types.hpp	/^typedef std::ostringstream          o_stream;$/;"	t	namespace:cf::detail
+obtain_option	configuration/configurator/detail/pure_options_obtainer.hpp	/^    void obtain_option( const std::string& s, pure_options& factual_obtained_options ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+obtain_pure_strings	configuration/configurator/configurator.hpp	/^    detail::pure_strings_obtainer       obtain_pure_strings;$/;"	m	class:cf::configurator
+obtained_strings	configuration/configurator/detail/pure_strings_obtainer.hpp	/^    str_storage obtained_strings() const {$/;"	f	class:cf::detail::pure_strings_obtainer
+obtained_strings_from	configuration/configurator/detail/pure_strings_obtainer.hpp	/^    str_storage obtained_strings_from( fs::ifstream& configuration_file ) const {$/;"	f	class:cf::detail::pure_strings_obtainer
+one_line_comment_in_this	configuration/configurator/detail/comments_remover.hpp	/^    bool one_line_comment_in_this( const std::string& s ) const {$/;"	f	class:cf::detail::comments_remover
+one_line_comment_sign	configuration/configurator/detail/comments_remover.hpp	/^    std::string       one_line_comment_sign;$/;"	m	class:cf::detail::comments_remover
+open_MMF	include/UH_Define.h	/^	var_4 open_MMF(var_1* file,var_1 iMode=0)$/;"	f	struct:_cp_memory_map_file_
+open_file	configuration/configurator/detail/pure_strings_obtainer.hpp	/^    void open_file( fs::ifstream& configuration_file ) const {$/;"	f	class:cf::detail::pure_strings_obtainer
+open_section_tag_begin_sign	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const std::string   open_section_tag_begin_sign;$/;"	m	class:cf::detail::pure_options_obtainer
+open_section_tag_end_sign	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const std::string   open_section_tag_end_sign;$/;"	m	class:cf::detail::pure_options_obtainer
+open_section_tag_exists_in_this	configuration/configurator/detail/pure_options_obtainer.hpp	/^    bool open_section_tag_exists_in_this( const std::string& s ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+operator ()	configuration/configurator/detail/comments_remover.hpp	/^    void operator()( str_storage& obtained_strings ) const {$/;"	f	class:cf::detail::comments_remover
+operator ()	configuration/configurator/detail/incorrect_options_checker.hpp	/^    void operator()( const pure_options& factual_obtained_options ) {$/;"	f	class:cf::detail::incorrect_options_checker
+operator ()	configuration/configurator/detail/necessary_options_checker.hpp	/^    void operator()( const pure_options& factual_obtained_options ) const {$/;"	f	class:cf::detail::necessary_options_checker
+operator ()	configuration/configurator/detail/options_repetition_handler.hpp	/^    void operator()( pure_options& factual_obtained_options ) const {$/;"	f	class:cf::detail::options_repetition_handler
+operator ()	configuration/configurator/detail/pure_options_obtainer.hpp	/^    pure_options operator()( const str_storage& obtained_strings ) {$/;"	f	class:cf::detail::pure_options_obtainer
+operator ()	configuration/configurator/detail/pure_strings_obtainer.hpp	/^    str_storage operator()( const std::string& _path_to_configuration_file ) {$/;"	f	class:cf::detail::pure_strings_obtainer
+operator ()	configuration/configurator/detail/semantic_checker.hpp	/^    void operator()() {$/;"	f	class:cf::detail::semantic_checker
+operator <	configuration/configurator/detail/option.hpp	/^inline bool operator<( const pure_option& left, const pure_option& right ) {$/;"	f	namespace:cf::detail
+operator =	configuration/configurator/configurator.hpp	/^    single_configurator& operator=( const single_configurator& another ) {$/;"	f	class:cf::single_configurator
+operator ==	configuration/configurator/detail/option.hpp	/^    bool operator==( const pure_option& another ) const {$/;"	f	struct:cf::detail::pure_option
+operator ==	configuration/configurator/detail/option.hpp	/^    bool operator==( const std::string& _name ) const {$/;"	f	struct:cf::detail::pure_option
+operator ==	configuration/configurator/detail/option.hpp	/^    bool operator==( const std::string& full_name ) const {$/;"	f	class:cf::detail::option
+operator ==	include/utility.h	/^bool operator==(const simple_pair<T1, T2>& lhs, const simple_pair<T1, T2>& rhs)$/;"	f
+option	configuration/configurator/detail/option.hpp	/^    explicit option( const std::string& full_name, const std::string& _sections_separator ) :$/;"	f	class:cf::detail::option
+option	configuration/configurator/detail/option.hpp	/^class option {$/;"	c	namespace:cf::detail
+option	configuration/configurator/detail/option.hpp	/^typedef detail::option              option;$/;"	t	namespace:cf
+option_const_it	configuration/configurator/detail/option.hpp	/^typedef options::const_iterator     option_const_it;$/;"	t	namespace:cf
+option_exists_in_this	configuration/configurator/detail/pure_options_obtainer.hpp	/^    bool option_exists_in_this( const std::string& s ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+option_it	configuration/configurator/detail/option.hpp	/^typedef options::iterator           option_it;$/;"	t	namespace:cf
+option_name_value_separator	configuration/configurator/configurator.hpp	/^    std::string         option_name_value_separator;$/;"	m	class:cf::configurator
+option_name_value_separator	configuration/configurator/detail/pure_options_obtainer.hpp	/^    std::string&        option_name_value_separator;$/;"	m	class:cf::detail::pure_options_obtainer
+options	configuration/configurator/detail/option.hpp	/^typedef boost::ptr_vector< option > options;$/;"	t	namespace:cf
+options_obtainer	configuration/configurator/configurator.hpp	/^    detail::pure_options_obtainer       options_obtainer;$/;"	m	class:cf::configurator
+options_repetition_handler	configuration/configurator/detail/options_repetition_handler.hpp	/^    options_repetition_handler( const options&       _registered_options$/;"	f	class:cf::detail::options_repetition_handler
+options_repetition_handler	configuration/configurator/detail/options_repetition_handler.hpp	/^class options_repetition_handler {$/;"	c	namespace:cf::detail
+pBlock	include/WFMem.h	/^        char *pBlock; $/;"	m	struct:nsWFMem::CFreeByTimeMemory::SPeriodHead
+pNext	include/WFMem.h	/^        SPeriodHead *pNext;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SPeriodHead
+pNext	include/WFMem.h	/^        char *pNext;$/;"	m	struct:nsWFMem::CFreeByTimeMemory::SDataBlockMeta
+pNext	include/WFQueue.h	/^        SNode *pNext;$/;"	m	struct:nsWFQueue::CCheckTimeoutList::SNode
+parse	configuration/configurator/configurator.hpp	/^    void parse( const std::string& path_to_configuration_file ) {$/;"	f	class:cf::configurator
+parse	configuration/configurator/configurator.hpp	/^    void parse( const std::string& path_to_configuration_file ) {$/;"	f	class:cf::single_configurator
+parse_line	include/UC_ReadConfigFile.h	/^	void parse_line(std::string& line)$/;"	f	class:IniConfig
+path	configuration/configurator/detail/misc.hpp	/^	, path				\/*!< Path semantics check. *\/$/;"	e	enum:cf::value_semantic
+path_to_configuration_file	configuration/configurator/detail/pure_strings_obtainer.hpp	/^    fs::path path_to_configuration_file;$/;"	m	class:cf::detail::pure_strings_obtainer
+period_in_days	configuration/configurator/detail/validators.hpp	/^    bool period_in_days( const std::string& time_period ) const {$/;"	f	class:cf::detail::time_period_validator
+period_in_hours	configuration/configurator/detail/validators.hpp	/^    bool period_in_hours( const std::string& time_period ) const {$/;"	f	class:cf::detail::time_period_validator
+period_in_minutes	configuration/configurator/detail/validators.hpp	/^    bool period_in_minutes( const std::string& time_period ) const {$/;"	f	class:cf::detail::time_period_validator
+period_in_seconds	configuration/configurator/detail/validators.hpp	/^    bool period_in_seconds( const std::string& time_period ) const {$/;"	f	class:cf::detail::time_period_validator
+period_in_seconds_pure	configuration/configurator/detail/validators.hpp	/^    bool period_in_seconds_pure( const std::string& time_period ) const {$/;"	f	class:cf::detail::time_period_validator
+persistent	include/UT_HashTable_Pro.h	/^	var_4 persistent(T_Key key, var_vd* value, var_4 is_delete)$/;"	f	class:UT_HashTable_Pro
+pointer	include/UH_Define.h	/^	var_vd* pointer;$/;"	m	struct:_cp_memory_map_file_
+pop_value	include/UT_HashTable_Pro.h	/^	var_4 pop_value(T_Key key, var_vd*& reference)$/;"	f	class:UT_HashTable_Pro
+prepare_full_name_for_log	configuration/configurator/detail/misc.hpp	/^inline std::string prepare_full_name_for_log( const std::string& full_name_of_option$/;"	f	namespace:cf::detail
+prepare_pure_options_depending_on_case_sensitivity	configuration/configurator/configurator.hpp	/^    void prepare_pure_options_depending_on_case_sensitivity( pure_options& factual_obtained_options ) {$/;"	f	class:cf::configurator
+prepare_registered_options_depending_on_case_sensitivity	configuration/configurator/configurator.hpp	/^    void prepare_registered_options_depending_on_case_sensitivity() {$/;"	f	class:cf::configurator
+print_lock	include/UH_Define.h	/^static void print_lock(struct flock lock)$/;"	f
+ptr_list	include/heaphashpack.h	/^		hash_table_node    *ptr_list;	$/;"	m	struct:CHeapHashPack::hash_table_node
+pure_check_path_existence	configuration/configurator/detail/misc.hpp	/^inline void pure_check_path_existence( const std::string& _path ) {$/;"	f	namespace:cf::detail
+pure_option	configuration/configurator/detail/option.hpp	/^    pure_option( const std::string& _name, const std::string& _value ) :$/;"	f	struct:cf::detail::pure_option
+pure_option	configuration/configurator/detail/option.hpp	/^    pure_option() {}$/;"	f	struct:cf::detail::pure_option
+pure_option	configuration/configurator/detail/option.hpp	/^struct pure_option {$/;"	s	namespace:cf::detail
+pure_option	configuration/configurator/detail/option.hpp	/^typedef detail::pure_option         pure_option;$/;"	t	namespace:cf
+pure_option_it	configuration/configurator/detail/option.hpp	/^typedef pure_options::iterator      pure_option_it;$/;"	t	namespace:cf
+pure_options	configuration/configurator/detail/option.hpp	/^typedef std::vector< pure_option >  pure_options;$/;"	t	namespace:cf
+pure_options_obtainer	configuration/configurator/detail/pure_options_obtainer.hpp	/^    pure_options_obtainer( std::string&         _option_name_value_separator$/;"	f	class:cf::detail::pure_options_obtainer
+pure_options_obtainer	configuration/configurator/detail/pure_options_obtainer.hpp	/^class pure_options_obtainer {$/;"	c	namespace:cf::detail
+pure_strings_obtainer	configuration/configurator/detail/pure_strings_obtainer.hpp	/^class pure_strings_obtainer {$/;"	c	namespace:cf::detail
+push_value	include/UT_HashTable_Pro.h	/^	var_vd push_value(var_vd*& reference)$/;"	f	class:UT_HashTable_Pro
+query	src/database.h	/^static bool query(string sql, vector<vector<string> > result)$/;"	f
+query_key	include/UT_HashTable_Pro.h	/^	var_4 query_key(T_Key key)$/;"	f	class:UT_HashTable_Pro
+rd_c	include/UH_Define.h	/^	var_u4 rd_c; \/\/ read count$/;"	m	struct:CP_MutexLock_RW
+rd_c	include/UH_Define.h	/^	var_u4 rd_c; \/\/ read count$/;"	m	struct:CP_MutexLock_RW_LCK
+regex_exp_record	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_exp_record;$/;"	m	class:cf::detail::exp_record_validator
+regex_period_in_days	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_period_in_days;$/;"	m	class:cf::detail::time_period_validator
+regex_period_in_hours	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_period_in_hours;$/;"	m	class:cf::detail::time_period_validator
+regex_period_in_minutes	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_period_in_minutes;$/;"	m	class:cf::detail::time_period_validator
+regex_period_in_seconds	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_period_in_seconds;$/;"	m	class:cf::detail::time_period_validator
+regex_period_in_seconds_pure	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_period_in_seconds_pure;$/;"	m	class:cf::detail::time_period_validator
+regex_size_in_bytes	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_size_in_bytes;$/;"	m	class:cf::detail::size_validator
+regex_size_in_bytes_pure	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_size_in_bytes_pure;$/;"	m	class:cf::detail::size_validator
+regex_size_in_gbytes	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_size_in_gbytes;$/;"	m	class:cf::detail::size_validator
+regex_size_in_kbytes	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_size_in_kbytes;$/;"	m	class:cf::detail::size_validator
+regex_size_in_mbytes	configuration/configurator/detail/validators.hpp	/^    const boost::regex regex_size_in_mbytes;$/;"	m	class:cf::detail::size_validator
+register_options	configuration/example/advanced.cpp	/^void register_options( cf::single_configurator& configurator ) {$/;"	f
+registered_options	configuration/configurator/configurator.hpp	/^    options registered_options;$/;"	m	class:cf::configurator
+registered_options	configuration/configurator/detail/incorrect_options_checker.hpp	/^    const options& registered_options;$/;"	m	class:cf::detail::incorrect_options_checker
+registered_options	configuration/configurator/detail/necessary_options_checker.hpp	/^    const options& registered_options;$/;"	m	class:cf::detail::necessary_options_checker
+registered_options	configuration/configurator/detail/options_repetition_handler.hpp	/^    const options& registered_options;$/;"	m	class:cf::detail::options_repetition_handler
+registered_options	configuration/configurator/detail/semantic_checker.hpp	/^    options&                registered_options;$/;"	m	class:cf::detail::semantic_checker
+registered_options	configuration/configurator/detail/validators.hpp	/^    options& registered_options;$/;"	m	struct:cf::detail::common_validator
+remove_aligned_multi_line_comments_from	configuration/configurator/detail/comments_remover.hpp	/^    void remove_aligned_multi_line_comments_from( str_storage& obtained_strings ) const {$/;"	f	class:cf::detail::comments_remover
+remove_comments_from	configuration/configurator/configurator.hpp	/^    detail::comments_remover            remove_comments_from;$/;"	m	class:cf::configurator
+remove_empty_options_from	configuration/configurator/detail/options_repetition_handler.hpp	/^    void remove_empty_options_from( pure_options& factual_obtained_options ) const {$/;"	f	class:cf::detail::options_repetition_handler
+remove_empty_strings_from	configuration/configurator/detail/comments_remover.hpp	/^    void remove_empty_strings_from( str_storage& obtained_strings ) const {$/;"	f	class:cf::detail::comments_remover
+remove_multi_line_comment_from_this	configuration/configurator/detail/comments_remover.hpp	/^    void remove_multi_line_comment_from_this( std::string& s, string_it begin_of_comment ) const {$/;"	f	class:cf::detail::comments_remover
+remove_multi_line_comments_from	configuration/configurator/detail/comments_remover.hpp	/^    void remove_multi_line_comments_from( str_storage& obtained_strings ) const {$/;"	f	class:cf::detail::comments_remover
+remove_names_of_inputed_necessary_options	configuration/configurator/detail/necessary_options_checker.hpp	/^    void remove_names_of_inputed_necessary_options( const pure_options& factual_obtained_options$/;"	f	class:cf::detail::necessary_options_checker
+remove_one_line_comment_from_this	configuration/configurator/detail/comments_remover.hpp	/^    void remove_one_line_comment_from_this( std::string& s ) const {$/;"	f	class:cf::detail::comments_remover
+remove_one_line_comments_from	configuration/configurator/detail/comments_remover.hpp	/^    void remove_one_line_comments_from( str_storage& obtained_strings ) const {$/;"	f	class:cf::detail::comments_remover
+reparse	configuration/configurator/configurator.hpp	/^    void reparse( const std::string& new_path_to_configuration_file ) {$/;"	f	class:cf::configurator
+reparse	configuration/configurator/configurator.hpp	/^    void reparse() {$/;"	f	class:cf::configurator
+reparsing	configuration/configurator/configurator.hpp	/^        bool& reparsing;$/;"	m	struct:cf::configurator::reparsing_flag_switch
+reparsing	configuration/configurator/configurator.hpp	/^    bool reparsing;$/;"	m	class:cf::configurator
+reparsing_flag_switch	configuration/configurator/configurator.hpp	/^        explicit reparsing_flag_switch( bool& _reparsing ) :$/;"	f	struct:cf::configurator::reparsing_flag_switch
+reparsing_flag_switch	configuration/configurator/configurator.hpp	/^    struct reparsing_flag_switch {$/;"	s	class:cf::configurator
+reset	include/utility.h	/^    var_vd reset()$/;"	f	class:static_array
+restore	include/UT_HashTable_Pro.h	/^	var_4 restore()$/;"	f	class:UT_HashTable_Pro
+retrieve_name_of_last_opening_section	configuration/configurator/detail/pure_options_obtainer.hpp	/^    std::string retrieve_name_of_last_opening_section() const {$/;"	f	class:cf::detail::pure_options_obtainer
+retrieve_section_name_from_close_tag	configuration/configurator/detail/pure_options_obtainer.hpp	/^    std::string retrieve_section_name_from_close_tag( const std::string& s ) const { $/;"	f	class:cf::detail::pure_options_obtainer
+retrieve_section_name_from_open_tag	configuration/configurator/detail/pure_options_obtainer.hpp	/^    std::string retrieve_section_name_from_open_tag( const std::string& s ) const {$/;"	f	class:cf::detail::pure_options_obtainer
+retrieve_unique_options_from	configuration/configurator/detail/options_repetition_handler.hpp	/^    pure_options retrieve_unique_options_from( const pure_options& factual_obtained_options ) const {$/;"	f	class:cf::detail::options_repetition_handler
+right	include/utility.h	/^    T2 right;$/;"	m	struct:simple_pair
+ringjson	src/Ring.h	/^	string ringjson;$/;"	m	struct:doc_info
+save	include/UT_HashTable_Pro.h	/^	var_4 save(var_1* library_file, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+second_sign	configuration/configurator/detail/validators.hpp	/^    const std::string second_sign;$/;"	m	class:cf::detail::time_period_validator
+seconds_in_day	configuration/configurator/detail/validators.hpp	/^    const unsigned long int seconds_in_day;$/;"	m	class:cf::detail::time_period_validator
+seconds_in_hour	configuration/configurator/detail/validators.hpp	/^    const unsigned long int seconds_in_hour;$/;"	m	class:cf::detail::time_period_validator
+seconds_in_minute	configuration/configurator/detail/validators.hpp	/^    const unsigned long int seconds_in_minute;$/;"	m	class:cf::detail::time_period_validator
+sections_separator	configuration/configurator/configurator.hpp	/^    const std::string   sections_separator;$/;"	m	class:cf::configurator
+sections_separator	configuration/configurator/detail/incorrect_options_checker.hpp	/^    const std::string& sections_separator;$/;"	m	class:cf::detail::incorrect_options_checker
+sections_separator	configuration/configurator/detail/necessary_options_checker.hpp	/^    const std::string& sections_separator;$/;"	m	class:cf::detail::necessary_options_checker
+sections_separator	configuration/configurator/detail/option.hpp	/^    const std::string& sections_separator;$/;"	m	class:cf::detail::option
+sections_separator	configuration/configurator/detail/options_repetition_handler.hpp	/^    const std::string& sections_separator;$/;"	m	class:cf::detail::options_repetition_handler
+sections_separator	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const std::string&  sections_separator;$/;"	m	class:cf::detail::pure_options_obtainer
+sections_separator	configuration/configurator/detail/semantic_checker.hpp	/^    const std::string&      sections_separator;$/;"	m	class:cf::detail::semantic_checker
+sections_separator	configuration/configurator/detail/validators.hpp	/^    const std::string& sections_separator;$/;"	m	struct:cf::detail::common_validator
+sections_separator_for_log	configuration/configurator/detail/misc.hpp	/^inline std::string sections_separator_for_log() { return " > "; }$/;"	f	namespace:cf::detail
+semantic	configuration/configurator/detail/option.hpp	/^    value_semantic semantic;$/;"	m	class:cf::detail::option
+semantic_checker	configuration/configurator/detail/semantic_checker.hpp	/^    semantic_checker( options& _registered_options$/;"	f	class:cf::detail::semantic_checker
+semantic_checker	configuration/configurator/detail/semantic_checker.hpp	/^class semantic_checker {$/;"	c	namespace:cf::detail
+semantic_checkers	configuration/configurator/detail/semantic_checker.hpp	/^    checkers                semantic_checkers;$/;"	m	class:cf::detail::semantic_checker
+semantic_defined	configuration/configurator/detail/option.hpp	/^    bool semantic_defined() const {$/;"	f	class:cf::detail::option
+semantic_error_prefix	configuration/configurator/detail/validators.hpp	/^inline std::string semantic_error_prefix() { return "Semantic error: "; }$/;"	f	namespace:cf::detail
+set	include/UC_ReadConfigFile.h	/^    void set(const std::string& section, const std::string& key, const std::string& newValue)$/;"	f	class:IniConfig
+set_case_sensitivity_for_names	configuration/configurator/configurator.hpp	/^    configurator& set_case_sensitivity_for_names() {$/;"	f	class:cf::configurator
+set_name_value_separator	configuration/configurator/configurator.hpp	/^    void set_name_value_separator( char new_separator ) {$/;"	f	class:cf::configurator
+set_time_begin	include/UH_Define.h	/^	inline void set_time_begin()$/;"	f	struct:_cp_stat_time_
+set_time_end	include/UH_Define.h	/^	inline void set_time_end()$/;"	f	struct:_cp_stat_time_
+siFileSize	include/UH_Define.h	/^	size_t  siFileSize;$/;"	m	struct:_cp_memory_map_file_
+sign_lock	include/UH_Define.h	/^	var_u4 sign_lock;$/;"	m	struct:CP_MutexLock_RW
+sign_mask	include/UH_Define.h	/^	var_u4 sign_mask;$/;"	m	struct:CP_MutexLock_RW
+simple_pair	include/utility.h	/^struct simple_pair$/;"	s
+single_configurator	configuration/configurator/configurator.hpp	/^    single_configurator( const single_configurator& another ) {}$/;"	f	class:cf::single_configurator
+single_configurator	configuration/configurator/configurator.hpp	/^    single_configurator() {}$/;"	f	class:cf::single_configurator
+single_configurator	configuration/configurator/configurator.hpp	/^class single_configurator :$/;"	c	namespace:cf
+singleton	configuration/configurator/detail/singleton.hpp	/^class singleton : boost::noncopyable {$/;"	c	namespace:cf::detail
+size	configuration/configurator/detail/misc.hpp	/^    , size              \/*!< Size semantics check. *\/$/;"	e	enum:cf::value_semantic
+size_in_bytes	configuration/configurator/detail/validators.hpp	/^    bool size_in_bytes( const std::string& size ) const      { return regex_match( size, regex_size_in_bytes ); }$/;"	f	class:cf::detail::size_validator
+size_in_bytes_pure	configuration/configurator/detail/validators.hpp	/^    bool size_in_bytes_pure( const std::string& size ) const { return regex_match( size, regex_size_in_bytes_pure ); }$/;"	f	class:cf::detail::size_validator
+size_in_gbytes	configuration/configurator/detail/validators.hpp	/^    bool size_in_gbytes( const std::string& size ) const     { return regex_match( size, regex_size_in_gbytes ); } $/;"	f	class:cf::detail::size_validator
+size_in_kbytes	configuration/configurator/detail/validators.hpp	/^    bool size_in_kbytes( const std::string& size ) const     { return regex_match( size, regex_size_in_kbytes ); }$/;"	f	class:cf::detail::size_validator
+size_in_mbytes	configuration/configurator/detail/validators.hpp	/^    bool size_in_mbytes( const std::string& size ) const     { return regex_match( size, regex_size_in_mbytes ); }$/;"	f	class:cf::detail::size_validator
+size_validator	configuration/configurator/detail/validators.hpp	/^    size_validator( options& registered_options, const std::string& sections_separator ) :$/;"	f	class:cf::detail::size_validator
+size_validator	configuration/configurator/detail/validators.hpp	/^class size_validator : common_validator {$/;"	c	namespace:cf::detail
+snprintf	include/WFPub.h	33;"	d
+sock_descriptor	include/WFSocket.h	/^    typedef SOCKET sock_descriptor;$/;"	t
+sock_descriptor	include/WFSocket.h	/^    typedef int sock_descriptor;$/;"	t
+sock_error	include/WFSocket.h	27;"	d
+sock_error	include/WFSocket.h	40;"	d
+sock_invalid	include/WFSocket.h	26;"	d
+sock_invalid	include/WFSocket.h	39;"	d
+socklen_t	include/WFSocket.h	/^    typedef int socklen_t;$/;"	t
+split	include/utility.h	/^static vector<string> split(string str, string pattern)$/;"	f
+state	include/UC_MD5.h	/^		UINT4 state[4];            \/* state (ABCD) *\/$/;"	m	struct:UC_MD5::__anon3
+static_array	include/utility.h	/^    static_array() {}$/;"	f	class:static_array
+static_array	include/utility.h	/^class static_array$/;"	c
+store_for_option	configuration/configurator/detail/validators.hpp	/^    void store_for_option( const std::string& option_name, ValueType value_in_minimal_units ) {$/;"	f	struct:cf::detail::common_validator
+store_in_bytes	configuration/configurator/detail/validators.hpp	/^    void store_in_bytes( const std::string& size, const std::string& option_name ) {$/;"	f	class:cf::detail::size_validator
+store_in_bytes_pure	configuration/configurator/detail/validators.hpp	/^    void store_in_bytes_pure( const std::string& size, const std::string& option_name ) {$/;"	f	class:cf::detail::size_validator
+store_in_days	configuration/configurator/detail/validators.hpp	/^    void store_in_days( const std::string& time_period, const std::string& option_name ) {$/;"	f	class:cf::detail::time_period_validator
+store_in_gbytes	configuration/configurator/detail/validators.hpp	/^    void store_in_gbytes( const std::string& size, const std::string& option_name ) {$/;"	f	class:cf::detail::size_validator
+store_in_hours	configuration/configurator/detail/validators.hpp	/^    void store_in_hours( const std::string& time_period, const std::string& option_name ) {$/;"	f	class:cf::detail::time_period_validator
+store_in_kbytes	configuration/configurator/detail/validators.hpp	/^    void store_in_kbytes( const std::string& size, const std::string& option_name ) {$/;"	f	class:cf::detail::size_validator
+store_in_mbytes	configuration/configurator/detail/validators.hpp	/^    void store_in_mbytes( const std::string& size, const std::string& option_name ) {$/;"	f	class:cf::detail::size_validator
+store_in_minutes	configuration/configurator/detail/validators.hpp	/^    void store_in_minutes( const std::string& time_period, const std::string& option_name ) {$/;"	f	class:cf::detail::time_period_validator
+store_in_seconds	configuration/configurator/detail/validators.hpp	/^    void store_in_seconds( const std::string& time_period, const std::string& option_name ) {$/;"	f	class:cf::detail::time_period_validator
+store_in_seconds_pure	configuration/configurator/detail/validators.hpp	/^    void store_in_seconds_pure( const std::string& time_period, const std::string& option_name ) {$/;"	f	class:cf::detail::time_period_validator
+store_incorrect_option	configuration/configurator/detail/incorrect_options_checker.hpp	/^    void store_incorrect_option( const std::string& option_name ) {$/;"	f	class:cf::detail::incorrect_options_checker
+store_number_from_exp_record	configuration/configurator/detail/validators.hpp	/^    void store_number_from_exp_record( const std::string& exp_record, const std::string& option_name ) {$/;"	f	class:cf::detail::exp_record_validator
+store_obtained_values	configuration/configurator/configurator.hpp	/^    void store_obtained_values( const pure_options& factual_obtained_options ) {$/;"	f	class:cf::configurator
+store_unique_section_name	configuration/configurator/configurator.hpp	/^    void store_unique_section_name( const std::string& section_name ) {$/;"	f	class:cf::configurator
+stored_path	configuration/configurator/detail/pure_strings_obtainer.hpp	/^    std::string stored_path() const {$/;"	f	class:cf::detail::pure_strings_obtainer
+str_const_it	configuration/configurator/detail/types.hpp	/^typedef str_storage::const_iterator str_const_it;$/;"	t	namespace:cf::detail
+str_it	configuration/configurator/detail/types.hpp	/^typedef str_storage::iterator       str_it;$/;"	t	namespace:cf::detail
+str_set	configuration/configurator/detail/types.hpp	/^typedef std::set< std::string >     str_set;$/;"	t	namespace:cf::detail
+str_storage	configuration/configurator/detail/types.hpp	/^typedef std::vector< std::string >  str_storage;$/;"	t	namespace:cf::detail
+str_unique_const_it	configuration/configurator/detail/types.hpp	/^typedef str_set::const_iterator     str_unique_const_it;$/;"	t	namespace:cf::detail
+str_unique_it	configuration/configurator/detail/types.hpp	/^typedef str_set::iterator           str_unique_it;$/;"	t	namespace:cf::detail
+string_const_it	configuration/configurator/detail/types.hpp	/^typedef std::string::const_iterator string_const_it;$/;"	t	namespace:cf::detail
+string_it	configuration/configurator/detail/types.hpp	/^typedef std::string::iterator       string_it;$/;"	t	namespace:cf::detail
+strnstr	include/utility.h	/^inline var_1* strnstr(\/*const *\/var_1* start, const var_1* end, var_1* pos, var_u4 len)$/;"	f
+suf	include/heaphashpack.h	/^		int                 suf;$/;"	m	struct:CHeapHashPack::hash_table_node
+sys_error_code	include/utility.h	/^inline var_4 sys_error_code()$/;"	f
+szThreadDesc	include/WFMonitor.h	/^        char szThreadDesc[MAX_THREAD_DESCRIPTION_LEN+4];$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+t	configuration/configurator/detail/singleton.hpp	/^    static T* t;$/;"	m	class:cf::detail::singleton
+t	configuration/configurator/detail/singleton.hpp	/^T* singleton< T >::t = 0;$/;"	m	class:cf::detail::singleton
+tExpired	include/WFQueue.h	/^        time_t tExpired;$/;"	m	struct:nsWFQueue::CCheckTimeoutList::SNode
+tUpdate	include/WFMonitor.h	/^        time_t tUpdate;$/;"	m	struct:nsWFMonitor::CMonitor::SThreadInfo
+this_is_start_call	configuration/configurator/configurator.hpp	/^    bool this_is_start_call() const {$/;"	f	class:cf::configurator
+thread_process_server	src/Ring.cpp	/^void* Ring::thread_process_server(void* param)$/;"	f	class:Ring
+thread_req_server	src/Ring.cpp	/^void* Ring::thread_req_server(void* param)$/;"	f	class:Ring
+time_period	configuration/configurator/detail/misc.hpp	/^    , time_period       \/*!< Time period semantics check. *\/$/;"	e	enum:cf::value_semantic
+time_period_validator	configuration/configurator/detail/validators.hpp	/^    time_period_validator( options& registered_options, const std::string& sections_separator ) :$/;"	f	class:cf::detail::time_period_validator
+time_period_validator	configuration/configurator/detail/validators.hpp	/^class time_period_validator : common_validator { $/;"	c	namespace:cf::detail
+to_str	configuration/configurator/detail/misc.hpp	/^inline std::string to_str( const T& t ) {$/;"	f	namespace:cf::detail
+travel_del	include/UT_HashTable_Pro.h	/^	var_4 travel_del(var_vd*& handle)$/;"	f	class:UT_HashTable_Pro
+travel_finish	include/UT_HashTable_Pro.h	/^	var_4 travel_finish(var_vd*& handle)$/;"	f	class:UT_HashTable_Pro
+travel_idx	include/UT_HashTable_Pro.h	/^	var_4  travel_idx;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+travel_key	include/UT_HashTable_Pro.h	/^	var_4 travel_key(var_vd* handle, T_Key& key, var_vd** const reference = NULL)$/;"	f	class:UT_HashTable_Pro
+travel_modify	include/UT_HashTable_Pro.h	/^	var_4 travel_modify(var_vd*& handle, var_vd* value)$/;"	f	class:UT_HashTable_Pro
+travel_pos	include/UT_HashTable_Pro.h	/^	var_1* travel_pos;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+travel_pre	include/UT_HashTable_Pro.h	/^	var_1* travel_pre;$/;"	m	struct:_UT_Hash_Table_Pro_Travel_Info_
+travel_prepare	include/UT_HashTable_Pro.h	/^	var_4 travel_prepare(var_vd*& handle, var_4 is_dynamic = 0, var_4 is_lock = 1)$/;"	f	class:UT_HashTable_Pro
+trim	include/UT_HashTable_Pro.h	/^	var_4 trim()$/;"	f	class:UT_HashTable_Pro
+tv_1	include/UH_Define.h	/^	struct timeval tv_1, tv_2;$/;"	m	struct:_cp_stat_time_	typeref:struct:_cp_stat_time_::timeval
+tv_2	include/UH_Define.h	/^	struct timeval tv_1, tv_2;$/;"	m	struct:_cp_stat_time_	typeref:struct:_cp_stat_time_::
+uint16_t	include/WFInt.h	/^    typedef u_int16_t   uint16_t;$/;"	t
+uint16_t	include/WFInt.h	/^    typedef unsigned __int16  uint16_t;$/;"	t
+uint32_t	include/WFInt.h	/^    typedef u_int32_t   uint32_t;$/;"	t
+uint32_t	include/WFInt.h	/^    typedef unsigned __int32  uint32_t;$/;"	t
+uint64_t	include/WFInt.h	/^    typedef u_int64_t   uint64_t;$/;"	t
+uint64_t	include/WFInt.h	/^    typedef unsigned __int64  uint64_t;$/;"	t
+uint8_t	include/WFInt.h	/^    typedef u_int8_t    uint8_t;$/;"	t
+uint8_t	include/WFInt.h	/^    typedef unsigned __int8   uint8_t;$/;"	t
+unique_names_of_sections	configuration/configurator/configurator.hpp	/^    detail::str_set unique_names_of_sections;$/;"	m	class:cf::configurator
+unique_names_of_sections	configuration/configurator/detail/pure_options_obtainer.hpp	/^    const str_set&      unique_names_of_sections;$/;"	m	class:cf::detail::pure_options_obtainer
+unlock	include/UH_Define.h	/^	inline void unlock()$/;"	f	struct:CP_MutexLock
+unlock	include/UH_Define.h	/^	inline void unlock()$/;"	f	struct:CP_MutexLock_RW
+unlock	include/UH_Define.h	/^	inline void unlock(CP_MUTEXLOCK_RW_LCK* lck)$/;"	f	struct:CP_MutexLock_RW_FUN
+unlock_store	include/UT_HashTable_Pro.h	/^	inline var_vd unlock_store(var_1* head)$/;"	f	class:UT_HashTable_Pro
+unlock_table	include/UT_HashTable_Pro.h	/^	inline var_vd unlock_table(var_8 idx)$/;"	f	class:UT_HashTable_Pro
+uri	src/Ring.h	/^	string uri;$/;"	m	struct:doc_info
+use_canonical_one_line_comments	configuration/configurator/configurator.hpp	/^    void use_canonical_one_line_comments() {$/;"	f	class:cf::configurator
+use_canonical_one_line_comments	configuration/configurator/detail/comments_remover.hpp	/^    void use_canonical_one_line_comments() {$/;"	f	class:cf::detail::comments_remover
+use_default_value_reserve	configuration/configurator/detail/option.hpp	/^    void use_default_value_reserve() {$/;"	f	class:cf::detail::option
+use_default_value_reserves	configuration/configurator/configurator.hpp	/^    void use_default_value_reserves( const pure_options& factual_obtained_options ) {$/;"	f	class:cf::configurator
+valid_exp_record	configuration/configurator/detail/validators.hpp	/^    bool valid_exp_record( const std::string& exp_record ) const {$/;"	f	class:cf::detail::exp_record_validator
+value	configuration/configurator/detail/option.hpp	/^    std::string value;$/;"	m	class:cf::detail::option
+value	configuration/configurator/detail/option.hpp	/^    std::string value;$/;"	m	struct:cf::detail::pure_option
+value_semantic	configuration/configurator/detail/misc.hpp	/^enum value_semantic {$/;"	g	namespace:cf
+var_1	include/UH_Define.h	/^typedef               char var_1;$/;"	t
+var_2	include/UH_Define.h	/^typedef              short var_2;$/;"	t
+var_4	include/UH_Define.h	/^typedef                int var_4;$/;"	t
+var_8	include/UH_Define.h	/^typedef               long var_8;$/;"	t
+var_8	include/UH_Define.h	/^typedef            __int64 var_8;$/;"	t
+var_8	include/UH_Define.h	/^typedef          long long var_8;$/;"	t
+var_bl	include/UH_Define.h	/^typedef				  bool var_bl;$/;"	t
+var_d8	include/UH_Define.h	/^typedef             double var_d8;$/;"	t
+var_f4	include/UH_Define.h	/^typedef              float var_f4;$/;"	t
+var_u1	include/UH_Define.h	/^typedef      unsigned char var_u1;$/;"	t
+var_u2	include/UH_Define.h	/^typedef     unsigned short var_u2;$/;"	t
+var_u4	include/UH_Define.h	/^typedef       unsigned int var_u4;$/;"	t
+var_u8	include/UH_Define.h	/^typedef      unsigned long var_u8;$/;"	t
+var_u8	include/UH_Define.h	/^typedef   unsigned __int64 var_u8;$/;"	t
+var_u8	include/UH_Define.h	/^typedef unsigned long long var_u8;$/;"	t
+var_vd	include/UH_Define.h	/^typedef				  void var_vd;$/;"	t
+version	include/UT_HashTable_Pro.h	/^	const var_1* version()$/;"	f	class:UT_HashTable_Pro
+view_options_values	configuration/example/advanced.cpp	/^void view_options_values( cf::single_configurator& configurator ) {$/;"	f
+wr_f	include/UH_Define.h	/^	var_u4 wr_f; \/\/ write flag$/;"	m	struct:CP_MutexLock_RW
+wr_f	include/UH_Define.h	/^	var_u4 wr_f; \/\/ write flag$/;"	m	struct:CP_MutexLock_RW_LCK
+~CAutolock	include/WFLock.h	/^    ~CAutolock()$/;"	f	class:nsWFLock::CAutolock
+~CBlockListQueue	include/WFQueue.h	/^    ~CBlockListQueue()$/;"	f	class:nsWFQueue::CBlockListQueue
+~CBlockListSet	include/WFQueue.h	/^	~CBlockListSet()$/;"	f	class:nsWFQueue::CBlockListSet
+~CBlockMemory	include/WFMem.h	/^    ~CBlockMemory()$/;"	f	class:nsWFMem::CBlockMemory
+~CCheckTimeoutList	include/WFQueue.h	/^    ~CCheckTimeoutList()$/;"	f	class:nsWFQueue::CCheckTimeoutList
+~CHeapHashPack	include/heaphashpack.h	/^	~CHeapHashPack()$/;"	f	class:CHeapHashPack
+~CLock	include/WFLock.h	/^        ~CLock() $/;"	f	class:nsWFLock::CLock
+~CMonitor	include/WFMonitor.h	/^    ~CMonitor()$/;"	f	class:nsWFMonitor::CMonitor
+~CP_MutexLock	include/UH_Define.h	/^	~CP_MutexLock()$/;"	f	struct:CP_MutexLock
+~CP_MutexLock_RW	include/UH_Define.h	/^	~CP_MutexLock_RW()$/;"	f	struct:CP_MutexLock_RW
+~CP_MutexLock_RW_FUN	include/UH_Define.h	/^	~CP_MutexLock_RW_FUN()$/;"	f	struct:CP_MutexLock_RW_FUN
+~CPriorityBlockQueue	include/WFQueue.h	/^    ~CPriorityBlockQueue()$/;"	f	class:nsWFQueue::CPriorityBlockQueue
+~CReuseMemory	include/WFMem.h	/^    ~CReuseMemory()$/;"	f	class:nsWFMem::CReuseMemory
+~CSock	include/WFSocket.h	/^    ~CSock()$/;"	f	class:nsWFSocket::CSock
+~CTcpServer	include/WFSocket.h	/^    ~CTcpServer()$/;"	f	class:nsWFSocket::CTcpServer
+~CTraversalDir	include/WFPub.h	/^    ~CTraversalDir()$/;"	f	class:nsWFPub::CTraversalDir
+~UC_Allocator_Recycle	include/UC_Allocator_Recycle.h	/^	~UC_Allocator_Recycle()$/;"	f	class:UC_Allocator_Recycle
+~UT_Allocator	include/UT_Allocator.h	/^	~UT_Allocator()$/;"	f	class:UT_Allocator
+~UT_HashSearch	include/UT_HashSearch.h	/^	~UT_HashSearch()$/;"	f	class:UT_HashSearch
+~UT_HashTable_Pro	include/UT_HashTable_Pro.h	/^	~UT_HashTable_Pro()$/;"	f	class:UT_HashTable_Pro
+~UT_Queue	include/UT_Queue.h	/^	~UT_Queue()$/;"	f	class:UT_Queue
+~_cp_memory_map_file_	include/UH_Define.h	/^	~_cp_memory_map_file_()$/;"	f	struct:_cp_memory_map_file_
+~reparsing_flag_switch	configuration/configurator/configurator.hpp	/^        ~reparsing_flag_switch() {$/;"	f	struct:cf::configurator::reparsing_flag_switch
+~single_configurator	configuration/configurator/configurator.hpp	/^    ~single_configurator() {}$/;"	f	class:cf::single_configurator
+~static_array	include/utility.h	/^    ~static_array() {}$/;"	f	class:static_array

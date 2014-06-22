@@ -1,0 +1,25 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is INSTALL file for Configurator (C++ library for configuration file parsing).
+
+Last update: November 30, 2010
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+CONFIGURATOR
+version 0.9.2
+
+Building doues not required. Just copy 'configurator' folder in some place where 
+your compiler is looking for header files and add:
+ 
+#include <configurator/configurator.hpp> 
+
+in your program.
+
+
+IMPORTANT!
+
+If you want use Singleton-variant of cf::configurator class, compile program with flag WITH_SINGLETON.
+If you want use semantics check, compile program with flag WITH_SEMANTIC_CHECK.
+
+Example:
+
+# g++ -DWITH_SINGLETON -DWITH_SEMANTIC_CHECK -o test main.cpp -lboost_system -lboost_filesystem -lboost_regex -lboost_thread

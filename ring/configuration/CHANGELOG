@@ -1,0 +1,25 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is CHANGELOG file for Configurator (C++ library for configuration file parsing).
+
+Last update: November 30, 2010
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0.9.2 (30-11-2010)
+
+- Bug with missing flag WITH_SEMANTIC_CHECK was fixed.
+- Add experimental support of 'EXP_RECORD' semantic (for record big or small numbers in configuration file).
+- Short variants of 'add_' and 'get_' functions was added.
+
+
+0.9.1 (23-11-2010)
+
+- Bug with multi-line comment at one string was fixed.
+- Added support of tabulation ('\t' symbol) for name-value separator when space (' ' symbol) using as name-value separator.
+- Added Meaningless strings detection.
+- Added ability of using canonical one line comments (with '#' symbol)
+- 'Time period' semantic was added.
+
+
+0.9 (11-11-2010)
+
+- First version.
